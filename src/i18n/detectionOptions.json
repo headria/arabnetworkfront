@@ -1,0 +1,18 @@
+{
+  "order": ["cookie", "localStorage", "navigator", "htmlTag", "path"],
+  "lookupCookie": "i18next",
+  "lookupLocalStorage": "i18nextLng",
+  "lookupSessionStorage": "i18nextLng",
+  "lookupFromPathIndex": 0,
+  "lookupFromSubdomainIndex": 0,
+
+  "caches": ["localStorage", "cookie"],
+  "excludeCacheFor": ["cimode"],
+
+  "cookieMinutes": 10,
+  "cookieDomain": "arabgatewallet.com",
+
+  "htmlTag": "document.documentElement",
+
+  "cookieOptions": { "path": "/", "sameSite": "strict" }
+}
