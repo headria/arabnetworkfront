@@ -16,6 +16,11 @@
     "privacy": "Privacy",
     "term_of_services": "Term of services"
   },
+  "currency": {
+    "ar": "عربي",
+    "en": "English",
+    "tr": "Turkish"
+  },
   "exchange": {
     "connect": "اتصل مع محفظتك (اي محفظة تشمل الويب ٣)",
     "disconnect": "اقطع الأتصال",

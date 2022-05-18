@@ -10,9 +10,9 @@
     "buy_arabcoin": "Buy Arab Coin"
   },
   "currency": {
-    "en": "En / USD",
-    "us": "US / Dolar",
-    "ar": "Ar / Rial"
+    "ar": "عربي",
+    "en": "English",
+    "tr": "Turkish"
   },
   "index_hero": {
     "title": "your gateway for future",
