@@ -1,0 +1,78 @@
+.roadmap-section {
+    background-color: $background-dark;
+    .section-title {
+        .title {
+            color: white;
+            span {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.column-roadmap {
+    padding-left: 50px;
+    .date-list {
+        > li {
+            padding-bottom: 30px;
+            padding-left: 50px;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 2px;
+                left: 0;
+                width: 28px;
+                height: 28px;
+                background-color: #19403f;
+                border: 8px solid $primary;
+                border-radius: 50%;
+                z-index: 10;
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                top: 2px;
+                left: 13px;
+                width: 2px;
+                height: 100%;
+                background-color: $primary;
+            }
+            &:last-child::after {
+                display: none;
+            }
+        }
+        .name {
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 15px;
+        }
+        .desc {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+    .d-list {
+        list-style: disc;
+        padding-left: 20px;
+        li {
+            padding-bottom: 0;
+            padding-left: 0;
+            margin-bottom: 5px;
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .column-roadmap {
+        padding-left: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .column-roadmap {
+        padding-left: 0;
+    }
+}

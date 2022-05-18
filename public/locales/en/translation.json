@@ -1,484 +1,197 @@
 {
-  "title": "Arab Gate",
+  "title": "Arab Network",
   "lang": "Arabic",
   "menus": {
     "home": "Home",
-    "assets": "Assets",
-    "nft": "NFT",
-    "community": "Community",
     "ecosystem": "Ecosystem",
-    "docs": "Docs",
-    "litepaper": "Litepaper (Arab Gate)",
-    "whitepaper": "Whitepaper (Arab Network)",
-    "hala": "Hala",
-    "support_gate": "Support Gate",
-    "gate_pay": "Gate Pay",
+    "community": "Community",
+    "contact": "Contact",
     "about": "About",
-    "privacy": "Privacy",
-    "term_of_services": "Term of services"
+    "buy_arabcoin": "Buy Arab Coin"
   },
-  "exchange": {
-    "connect": "اتصل مع محفظتك (اي محفظة تشمل الويب ٣)",
-    "disconnect": "اقطع الأتصال",
-    "loading": "انتظر",
-    "success": "العملية تمت بنجاح",
-    "matic": "Polygon",
-    "eth": "Ethereum",
-    "bsc": "BSC",
-    "balance": "الرصيد",
-    "support": "دعم",
-    "signinmessage": "الدوخول الى بوابة العرب",
-    "selectnetwork": "الرجاء اختر الشبكه اولاً",
-    "success_message": "شكرا لدعمك لشبكة العرب. تمت عملية الدعم بنجاح.",
-    "error_message": "حدث خطاء ما، الرجاء تواصل مع فريق شبكة العرب",
-    "reject_message": "حدث خطاء، المستخدم رفض المعاملة"
+  "currency": {
+    "en": "En / USD",
+    "us": "US / Dolar",
+    "ar": "Ar / Rial"
   },
-  "home": {
-    "title": "Arab Gate",
-    "header": {
-      "human_support": "Human support"
-    },
-    "hero_home": {
-      "welcome": "Welcome To Arab Gate",
-      "animation_text": {
-        "safest": "safest",
-        "most_secure": "most secure",
-        "simplest": "simplest",
-        "easiest": "easiest",
-        "best": "best",
-        "smartest": "smartest",
-        "most_trusted": "most trusted"
+  "index_hero": {
+    "title": "your gateway for future",
+    "span": "opportunities",
+    "desc": "a world where value is created and exchanged by everyone in an efficient, open and secure manner"
+  },
+  "about_arabnetwork": {
+    "arrow_title": "Arab Network",
+    "shadow_text_1": "Arab",
+    "shadow_text_2": "Network",
+    "title": "What is Arab Network?",
+    "desc": "Arab Network is a community that doesn't have a central command. There is no single owner. Instead, a group of people shares their knowledge in blockchain technology, business, and education, working together to empower the Arab community in blockchain for a better future."
+  },
+  "ecosystem": {
+    "title": "We are building a revolutionary ecosystem.",
+    "desc": "We've got everything you need to start trading.",
+    "cards_ecosystek_list": {
+      "card_arabgate": {
+        "title": "Arab Gate",
+        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
       },
-      "crypto_app": "crypto app",
-      "arab_gate_desc": "Buy, store, swap, spend cryptocurrency and interact with DApps all in one gate.",
-      "apple_button": "Download for IOS",
-      "android": "Download for Android"
-    },
-    "arab_coin_alert": {
-      "title": "We thank everyone",
-      "title_desc": "who supports Arab Network's vision.",
-      "desc": "The current phase (MAS)",
-      "next_phase": "MAS phase ",
-      "next_price": "Price for Arabcoin"
-    },
-    "services": {
-      "title": "Why Arab gate?",
-      "service_secure": "Secure",
-      "service_decentralized": "Decentralized",
-      "service_anonymous": "Anonymous"
-    },
-    "features": {
-      "feature_title": "What makes Arab Gate stand out?",
-      "high_security": {
-        "tab_name": "High security",
-        "title": "High security",
-        "desc": "Your private keys can't leave your device. Using strong wallet encryption and cryptography, you can rest assured that your assets are safe and secure."
+      "card_blockchain": {
+        "title": "Arab Network Blockchain",
+        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
       },
-      "privacy_anonymity": {
-        "tab_name": "Privacy / Anonymity",
-        "title": "Enhanced privacy/anonymity",
-        "desc": "No KYC bureaucracy to access your assets, no IP association, no identity, no transactions tracking."
+      "card_crypto": {
+        "title": "Arab Crypto Talk",
+        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
       },
-      "buy_assets": {
-        "tab_name": "Buy assets",
-        "title": "Buy assets with your card",
-        "desc": "Purchase Assets directly from Arab Gate through the use of our partners. More options coming soon!"
+      "card_nft": {
+        "title": "Babylon NFT Marketplace",
+        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
       },
-      "dapp_web": {
-        "tab_name": "DApp & Web3",
-        "title": "DApp Browser & Web3 support",
-        "desc": "Seamlessly access your favorite DApps with Arab Gate's integrated DApp browser and Web3 support without any compromise on security."
+      "card_academy": {
+        "title": "Arab Academy Devtrezor",
+        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
       },
-      "multi_chain": {
-        "tab_name": "Multi Chain",
-        "title": "Multi Chain",
-        "desc": "Full support for Bitcoin and other major altcoins and tokens. Coin selection and addition are done with the utmost care."
-      },
-      "nft": {
-        "tab_name": "NFT",
-        "title": "NFT",
-        "desc": "Full support for ERC721, ERC1155, BEP721, BEP1155 and SLP tokens, store, access, and manage your collectibles with peace of mind and security using Arab Gate's innovative interface."
+      "card_grant": {
+        "title": "Arab Network Grant Program",
+        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
       }
     },
-    "road_map": {
-      "title": "Road Map",
-      "q3_2021": {
-        "q_title": "Q3 2021",
-        "item_1": "Research about non-custodial wallets, and how they work.",
-        "item_2": "Research about full nodes",
-        "item_3": "Team buildup",
-        "item_4": "Design Arab Gate UI",
-        "item_5": "Design Website UI",
-        "item_6": "Research about web3"
+    "about_ecosystem": {
+      "title": "Ecosystem",
+      "collapse_arabgate": {
+        "title": "Arab Gate",
+        "desc": "Arab Academy is the World's first cryptocurrency & Blockchain Education platform that will revolutionize the Arab World with a mission to empower people and educate them about cryptocurrency, blockchain, and programming."
+      },
+      "collapse_blockchain": {
+        "title": "Arab Network Blockchain",
+        "desc": "Arab Academy is the World's first cryptocurrency & Blockchain Education platform that will revolutionize the Arab World with a mission to empower people and educate them about cryptocurrency, blockchain, and programming."
+      },
+      "collapse_cryptotalk": {
+        "title": "Arab Crypto Talk",
+        "desc": "Arab Academy is the World's first cryptocurrency & Blockchain Education platform that will revolutionize the Arab World with a mission to empower people and educate them about cryptocurrency, blockchain, and programming."
+      },
+      "collapse_academy": {
+        "title": "Arab Network Academy",
+        "desc": "Arab Academy is the World's first cryptocurrency & Blockchain Education platform that will revolutionize the Arab World with a mission to empower people and educate them about cryptocurrency, blockchain, and programming."
+      },
+      "collapse_nft": {
+        "title": "Babylon NFT Marketplace",
+        "desc": "Arab Academy is the World's first cryptocurrency & Blockchain Education platform that will revolutionize the Arab World with a mission to empower people and educate them about cryptocurrency, blockchain, and programming."
+      },
+      "collapse_devtrezor": {
+        "title": "Devtrezor",
+        "desc": "Arab Academy is the World's first cryptocurrency & Blockchain Education platform that will revolutionize the Arab World with a mission to empower people and educate them about cryptocurrency, blockchain, and programming."
+      },
+      "collapse_grant": {
+        "title": "Arab Network Grant Program",
+        "desc": "Arab Academy is the World's first cryptocurrency & Blockchain Education platform that will revolutionize the Arab World with a mission to empower people and educate them about cryptocurrency, blockchain, and programming."
+      },
+      "collapse_knowledge": {
+        "title": "Prison Of Knowledge",
+        "desc": "Arab Academy is the World's first cryptocurrency & Blockchain Education platform that will revolutionize the Arab World with a mission to empower people and educate them about cryptocurrency, blockchain, and programming."
+      }
+    }
+  },
+  "banners": {
+    "live": "Let's live the Arab dream together.",
+    "community": {
+      "title": "Help us to build the future of Web3",
+      "join_community": "Join the Community"
+    },
+    "about_community": {
+      "title": "Community",
+      "desc": "The Arab Community decided to revolutionize the Arab world Be a part of the future."
+    }
+  },
+  "roadmap": {
+    "title": "Arab Network",
+    "title_span": "Road map",
+    "road_list": {
+      "q2_2020": {
+        "title": "Q2.2020",
+        "desc": "Founding the Arab network community.** **Team build-up.**"
+      },
+      "q4_2020": {
+        "title": "Q4.2020",
+        "desc": "Studying the Arab world's need for blockchain technology."
       },
       "q4_2021": {
-        "q_title": "Q4 2021",
-        "item_1": "Start the development of Arab Gate.",
-        "item_2": "Deployment of multiple blockchains (Bitcoin, Ethereum, Polygon, Binance Smart Chain, Near Protocol, etc.)"
-      },
-      "q1_2022": {
-        "q_title": "Q1 2022",
-        "item_1": "Launch the first version of the wallet on the website",
-        "item_2": "Add NFT List feature",
-        "item_3": " Research about hardware wallet",
-        "item_4": "Start developing a web3 wallet",
-        "item_5": "Research about Hala-AI",
-        "item_6": "List more cryptocurrencies.",
-        "item_7": "New supported blockchains & tokens"
-      },
-      "q2_2022": {
-        "q_title": "Q2 2022",
-        "item_1": "Add referral marketing to the Arab Gate wallet",
-        "item_2": "Add the first scaling solution for Ethereum and Bitcoin to the Arab Gate wallet",
-        "item_3": "New supported blockchains on Arab Gate wallet.",
-        "item_4": "Building the first prototype of the hardware wallet"
-      },
-      "q3_2022": {
-        "q_title": "Q3 2022",
-        "item_1": "Launch Hala-AI-VA",
-        "item_2": "Launch the first prototype of the hardware wallet",
-        "item_3": "Research about cross-chain Dex"
-      },
-      "q4_2022": {
-        "q_title": "Q4 2022",
-        "item_1": "Arab Gate exchange testnet launch"
-      }
-    },
-    "faq": {
-      "title": "FAQ",
-      "faqs": {
-        "item_1": {
-          "f_title": "What is Arab Gate?",
-          "f_desc": "Arab Gate is a non-custodial wallet that will connect billions of users around the world safely. Arab Gate offers multi-chain (NFT & cryptocurrency), DEX, Cross-chain Bridge & DApp Browser, and others."
-        },
-        "item_2": {
-          "f_title": "Where to Download Arab Gate?",
-          "f_desc": "Important!/b/Download Arab Gate only from official sources. Here are the download links:"
-        },
-        "item_3": {
-          "f_title": "How does Arab Gate work?",
-          "f_desc": "Arab Gate is a key component of future multichain protocols/applications, acting as a single point of access to various DeFi services across multiple blockchains. By having variations on the wallet, we have established a solid platform for expanding our product suite."
-        },
-        "item_4": {
-          "f_title": "Are my Funds Secure on Arab Gate?",
-          "f_desc": "Arab Gate uses an industry standard to encrypt your wallet and secure the Recovery Phrase Your private keys can't leave your device. Using strong wallet encryption and cryptography, you can rest assured that your assets are safe and secure."
+        "title": "Q4.2021",
+        "ul": {
+          "li_1": "Arab Gate App Development (Android & IOS version).",
+          "li_2": "ArabCryptoTalk infrastructure setup.",
+          "li_3": "Arab Network Academy infrastructure setup."
         }
       },
-      "find_answer": "Can't find an answer?"
+      "q1_p1_2022": {
+        "title": "Q1.P1 2022",
+        "ul": {
+          "li_1": "Websites Development",
+          "li_2": "Wallet Testing & Security Audits",
+          "li_3": "Whitepaper v1 released"
+        }
+      },
+      "arab_wallet_app": {
+        "title": "Arab wallet App",
+        "ul": {
+          "li_1": "NFT deployed",
+          "li_2": "Launch Arab coin"
+        }
+      },
+      "q1_p2_2022": {
+        "title": "Q1.P2 2022",
+        "desc": "Seeking the latest blockchain technologies",
+        "ul": {
+          "li_1": "Team Buildup",
+          "li_2": "Setting up the whole infrastructure",
+          "li_3": "Arab Gate exchange launch",
+          "li_4": "Babylon NFT Marketplace tested release"
+        }
+      },
+      "q1_p3_2022": {
+        "title": "Q1.P3 2022",
+        "desc": "Arab blockchain project launch",
+        "ul": {
+          "li_1": "Blockchain node analysis and connection",
+          "li_2": "Noorseen protocol up and running",
+          "li_3": "Explorer front end development",
+          "li_4": "Arab NFT platform mainnet launch"
+        }
+      },
+      "q4_p1_2022": {
+        "title": "Q4 P1. 2022",
+        "desc_1": "Launch the Testnet of Arab Blockchain",
+        "desc_2": "Launch Devtrezor mainnet",
+        "ul": {
+          "li_1": ">Whitepaper v2 released",
+          "li_2": "TPS Performance test"
+        }
+      },
+      "q4_p2_2022": {
+        "title": "Q4 P2.2022",
+        "desc": "Hardware wallet first prototype Hala AI-VA beta launch**"
+      },
+      "q2_2023": {
+        "title": "Q2. 2023",
+        "desc": "Arab Network Blockchain mainnet launch"
+      }
+    }
+  },
+  "download_app": {
+    "title": "RECENTLY LAUNCHED PROJECT",
+    "info": {
+      "title": "Arab Gate",
+      "desc": "Arab Gate is a key component of future multichain protocols/applications, acting as a single point of access to various DeFi services across multiple blockchains. By having variations on the wallet, we have established a solid platform for expanding our product suite."
     }
   },
   "footer": {
-    "about": "ArabGate is the most secure way to store, buy & trade crypto under your control",
-    "quick_access": "Quick Access",
-    "links": "Links",
-    "apple_button": "Download for IOS",
-    "android": "Download for Android",
-    "made": "Made with ❤ by Arab Network"
-  },
-  "assets": {
-    "title": "Assets",
-    "description": "Coin selection and addition are done with the utmost care.",
-    "coin_list": {
-      "title": "Supported assets",
-      "description": "Here's a list of what's currently supported by Arab Gate"
+    "get_involve": {
+      "title": "Get involved",
+      "desc": "Don't be a stranger, connect with the community here"
     },
-    "steps": {
-      "title": "Get started in 3 simple steps",
-      "description": "It only takes a few minutes",
-      "step_1_title": "Download Arab Gate",
-      "step_2_title": "Create a new wallet",
-      "step_3_title": "Get some crypto"
-    }
-  },
-  "nft": {
-    "title": "NFT",
-    "description": "Store, access, and manage your collectibles with peace of mind and security using Arab Gate's innovative interface",
-    "show_case_title": "Manage all your NFTs in one place",
-    "supported_title": "Supported NFTs on these blockchains",
-    "supported_desc": "Arab Gate offers full support for ERC721, ERC1155, BEP721, BEP1155 and SLP tokens,",
-    "single_service_1": "Ethereum (ETH)",
-    "single_service_2": "Smartchain (BNB)",
-    "single_service_3": "Solana(SOL)"
-  },
-  "hala": {
-    "title": "Send, receive and exchange crypto using only a friend's name",
-    "description": "Arab Network is building the world's first AI Virtual assistant for digital assets Named Hala.",
-    "about_hala": {
-      "title": "About Hala",
-      "description": "Hala is an Artificially Intelligent virtual assistant for Digital Assets that was built to help Arab Gate users to send and receive assets directly by name or username. Anyone can send assets by simply saying, for example:\n\r 'Hala, Send $50 Bitcoin to Sharif'. Hala also assists users in using any function in the Arab Gate."
-    },
-    "features": {
-      "title": "Features",
-      "feature_1": {
-        "title": "Speech recognition",
-        "desc": "Hala can have an actual conversation with the user that will gather input and users' requirements and execute."
-      },
-      "feature_2": {
-        "title": "Customized Personality",
-        "desc": "Users can customize Hala (voice, and personality)"
-      },
-      "feature_3": {
-        "title": "User friendly",
-        "desc": "Hala is easy to use, users can give instructions simply by just pushing the VA button."
-      }
-    }
-  },
-  "community": {
-    "title": "Arab Network Community",
-    "desc": "Working together to secure a better future for the next generations.",
-    "btn_talk": "Let's Talk",
-    "keep_touch": {
-      "title": "Keep In Touch",
-      "desc": "Don't be a stranger, connect with the community here",
-      "social_facebook": "Facebook",
-      "social_youtube": "Youtube",
-      "social_twitter": "Twitter",
-      "social_telegram": "Telegram",
-      "social_tiktok": "Tiktok",
-      "social_linkedin": "Linkedin",
-      "social_github": "Github"
-    }
-  },
-  "about": {
-    "title": "About us",
-    "hero_about": {
-      "title": "Join our team to create the best digital solutions.",
-      "desc": "Arab Gate is a non-custodial decentralized wallet. It guarantees you have complete control over your funds because you hold your backup phrase and private keys. We don't have access to your wallet or any of your personal information. Your 12-word backup is encrypted and kept locally on your device. Furthermore, your assets are not held in the wallet itself; they are safely stored on the blockchain. The Arab Gate connects to the blockchain nodes directly and displays information about your balances, transaction history, and everything else you see in the wallet. You can also use it to make blockchain transactions. Arab Gate also allows to swap and buy cryptocurrency."
-    },
-    "arab_network": {
-      "title": "What is Arab Network?",
-      "desc": "Arab Network is a community that doesn't have a central command. There is no single owner. Instead, a group of people shares their knowledge in blockchain technology, business, and education, working together to empower the Arab community for a better future. Arab Network is founding an innovative community that will raise awareness on technology around the Arab World."
-    },
-    "our_vision": {
-      "title": "Our Vision",
-      "desc": "A world where value is created and exchanged by everyone in an efficient, open, and secure manner."
-    },
-    "we_build_arabgate": {
-      "title": "We built Arab Gate as our first product for these main reasons:",
-      "ul": {
-        "li_1": "The wallet is the core component of any blockchain.",
-        "li_2": "We believe that a multi-chain wallet ecosystem is the core component of future multi-chain/cross-chain protocols.",
-        "li_3": "People use different protocols/dapps for the same need, but they usually stick with only one wallet. Hence, a multichain wallet engine can become the moat factor of our upcoming products.",
-        "li_4": "A multi-chain wallet engine will facilitate the protocols/dapps to provide a better user experience and easier control of the product implementation process."
-      }
-    },
-    "our_values": {
-      "title": "Our values",
-      "card_1": {
-        "title": "Don't be afraid",
-        "desc": "Dare to fail positivity is contagious, so use it!"
-      },
-      "card_2": {
-        "title": "Think outside the box!",
-        "desc": "Open your mind share your ideas"
-      },
-      "card_3": {
-        "title": "Community",
-        "desc": "Lorem ipsum dolor sit amet."
-      },
-      "card_4": {
-        "title": "Succeed together",
-        "desc": "Act with integrity keep your promises"
-      },
-      "card_5": {
-        "title": "Humans, not resources",
-        "desc": "Human begins are not 'commodities' or 'resources', you are a creative and social being"
-      }
-    }
-  },
-  "gate_pay": {
-    "mini_title": "Gate Pay",
-    "title": "Welcome To The Digital Commerce Revolution",
-    "btn_title": "Get Start",
-    "payment": {
-      "payment_title_1": "Decentralized Payments At Scale",
-      "payment_desc_1": "Now Your Business Can Harness The Power Of The Blockchain At The Same Speed As Traditional Payment Networks. No More Intermediaries. It's Just You And Your Customer.",
-      "payment_title_2": "Payment Solutions",
-      "payment_desc_2": "Gate Pay System Offers Multiple  Scalable Payments Solutions And A Universal Settlement Layer For Moving Token-Based Digital Currencies."
-    },
-    "payment_fee": {
-      "title": "Transparent Fees",
-      "title_mini": "No Monthly Fees, No Hidden Fees",
-      "desc": "Gate Pay Offers Scalable Payment Solutions Built For Immediate Transactions, Fees That Are Fractions Of A Penny, And A Net-Zero Environmental Impact Like Solana Pay, Rollups, Bitcoin Lightning Network, And More."
-    },
-    "supported": {
-      "title": "Supported solutions",
-      "card_support_title_1": "Solana Pay",
-      "card_support_desc_1": "The World's Most Performant Web3 Ecosystem. Solana Pay Is Built For Immediate Transactions, Fees That Are Fractions Of A Penny, And A Net-Zero Environmental Impact.",
-      "card_support_title_2": "Rollups (Hermez, Zksynk, Optimisme)",
-      "card_support_desc_2": "Make Secure Payments In Digital Currencies Using Ethereum Borderless Infrastructure, Reducing Transfer Fees By Over 90%.",
-      "card_support_title_3": "Bitcoin Lightning Network",
-      "card_support_desc_3": "Gate Pay Merchants And Their Customers Will Be Able To Complete Cost-Effective Bitcoin Transactions With Lower Fees.",
-      "card_support_title_4": "Pay With The Most Popular Cryptocurrencies",
-      "card_support_desc_4": "Bitcoin, Ethereum, Litecoin, Dogecoin, Solana, Polygon, And Usdt."
-    }
-  },
-  "ios": {
-    "mini_title": "Arab Gate",
-    "title": "Get started with your UDID",
-    "description": "by submitting your UDID number you will have an exclusive access to Arab Gate Wallet IOS version that is limited initialy to a 100 slot only",
-    "btn_udid": "Check UDID",
-    "steps": {
-      "title": "How to Get your UDID on your iPhone",
-      "desc": "It only takes a few minutes",
-      "step_title_1": "Step 1",
-      "step_desc_1": "Open Safari and Go to UDID.tech",
-      "step_title_2": "Step 2",
-      "step_desc_2": "Then click on “Get your UDID now”",
-      "step_title_3": "Step 3",
-      "step_desc_3": "Click on “Got it!”",
-      "step_title_4": "Step 4",
-      "step_desc_4": "Click on Allow button",
-      "step_title_5": "Step 5",
-      "step_desc_5": "Click on Close",
-      "step_title_6": "Step 6",
-      "step_desc_6": "Go to settings and find UDID profile settings and then accept it.",
-      "step_title_7": "Step 7",
-      "step_desc_7": "Go back to the website and copy your UDID."
-    }
-  },
-  "privacy": {
-    "title": "Privacy and policy",
-    "privacy_description": {
-      "text_content_title_1": "Effective as of February 22, 2022",
-      "text_content_desc_1": "This Privacy Policy provided by ARAB NETWORK FUTURE TEKNOLOJI PROGRAMCILIGI LIMITED SIRKETI With corporate seat in HAMURCU SITESI, NO: 12-26 CEVIZLIK MAHALLESI ISTANBUL CADDESI, BAKIRKOY Istanbul (Europe) Turkey registered under : 0710927186 informs and explains to you how we collect, store, and process any information that directly, indirectly, or in connection with other information.\n\r Privacy and data protection are core principles on which we have our website <a href=\"/www.arabgatewallet.com\" target=\"_blank\">Arabgatewallet.com</a>\n\r and any of our AppStore or Google Play applications “Arab Gate” (hereinafter the “Application”).\n\rWe have implemented various technical and organizational measures to be compliant with applicable personal data, privacy, and data security legislation in the countries where we operate or where the applicable law applies to us.\n\rThis Privacy Policy sets forth the basic rules and principles by which we process your Personal Data and mentions our responsibilities while processing your Personal Data according to transparency obligations. We do not intend to collect personal data of children or persons under the age of 13 (thirteen) years old.",
-      "text_content_title_2": "Contact details and Questions",
-      "title_num_1": "1. Principles",
-      "desc_num_1": "Our application is based on principles relating to the processing of Personal Data, and we commit to the following principles relating to the processing of Personal Data:",
-      "ul_num_1": {
-        "li_1": "we process your Personal Data lawfully, fairly, and in a transparent manner by providing this Privacy Policy and showing legal bases for the processing of your Personal Data.",
-        "li_2": "we collect the Personal Data for specified, explicit, and legitimate purposes mentioned in this Privacy Policy.",
-        "li_3": "we process Personal Data that is adequate, relevant, and limited to what is necessary in relation to the purposes for which it is processed, especially since we don't require you to register or log in.We don't have access to your funds (private keys).We don't require your name or email address.",
-        "li_4": "we collect accurate and, where necessary, kept up to date Personal Data when applicable and relevant;",
-        "li_5": "we store your Personal Data for no longer than is necessary for the purposes for which the Personal Data are processed;",
-        "li_6": "we use and ensure appropriate security of the Personal Data"
-      },
-      "title_num_2": "2. Registration/Login Not Required",
-      "desc_num_2": "Arab Gate does not require you to register or log in.",
-      "title_num_3": "3. Private Keys Stay on Device",
-      "desc_num_3": "Your private keys will stay on your device.",
-      "title_num_4": "4. Categories of Collected Personal Data",
-      "desc_num_4": "We collect the following categories of your Personal Data:",
-      "ul_num_4": {
-        "li_1": "\bDevice Information :\b We may collect information about the device you use to access our Application, including the hardware model, operating system and version, unique device identifiers, and mobile network information. This information will never be communicated to third parties unless you provide prior specific consent.",
-        "li_2": "\bAnalytical Information : that includes information about how you use the Application.",
-        "li_3": "\bInformation you may provide to us : virtual currency addresses and any other information you choose to provide will never be communicated to third parties unless you provide prior specific consent."
-      },
-      "title_num_5": "5. Processed Personal Data",
-      "desc_num_5": "We process personal data when you interact with the Application or use our services, especially when:",
-      "ul_num_5": {
-        "li_1": "you use our services",
-        "li_2": "you browse any page or section of the Application",
-        "li_3": "you communicate with us or leave a query",
-        "li_4": "you leave a comment on the Website",
-        "li_5": "you receive notification from us",
-        "li_6": "we need to share your personal data with authorized third parties to provide the services",
-        "li_7": "we measure or analyze the Application's traffic"
-      },
-      "title_num_6": "6. Purposes and Legal bases for the Processing of Your Personal Data",
-      "desc_num_6": "We process your Personal Data for the following purposes:",
-      "ul_num_6": {
-        "li_1": "Providing services. We need to provide services via the Application. Legal basis: contract.",
-        "li_2": "Performing transactions. Legal basis: contract.",
-        "li_3": "Providing offers/updates which may be interesting to you. Legal basis: legitimate interests for offers and updates.",
-        "li_4": "Compliance with applicable regulatory rules. Legal basis: legal obligation.",
-        "li_5": "Keeping the Application running (managing your requests, remembering your settings, hosting, and back-end infrastructure). Legal basis: legitimate interests.",
-        "li_6": "Improving the Application (testing features, interacting with feedback platforms, managing landing pages, heat mapping the Application, traffic optimization, and data analysis and research, including profiling and the use of machine learning and other techniques over your Personal Data and in some cases using third parties to do this). Legal basis: legitimate interests.",
-        "li_7": "Customer support (notifying you of any changes to the Application, services, solving issues, any bug fixing). Legal basis: legitimate interests."
-      },
-      "title_num_7": "7. Blockchain Transactions",
-      "desc_num_7": "Your blockchain transactions may be relayed through servers or nodes and will be publicly visible due to the public nature of distributed ledger systems.",
-      "title_num_8": "8. Secure Communication with our Servers, Confidentiality, and Security Measures",
-      "desc_num_8": "We have security and organizational measures and procedures to secure the data collected and stored and to prevent it from being accidentally lost, used, altered, disclosed, or accessed without authorization. All of our servers support HTTPS. We allow disclosure of your personal data only to those employees and companies who have a business need to know such data. They will process the Personal Data on our instructions, and they are obliged to do it confidentially under confidentiality agreements.\n\rYou acknowledge that no data transmission is guaranteed to be 100% secure, and there may be risks. You are responsible for your login information and private keys. You shall keep them confidential.",
-      "title_num_9": "9. Communication with Third-Party Servers",
-      "desc_num_9": "Exchange rates, balances, transactions, and other blockchain information may be read from or related to third-party servers. We cannot guarantee the privacy of your Internet connection.",
-      "title_num_10": "10. Aggregate Usage Statistics",
-      "desc_num_10": "We may collect Arab Gate services usage information in order to improve function or UI but will only use this information in an aggregated, anonymized fashion.",
-      "title_num_11": "11. Support Requests",
-      "desc_num_11": "If you contact support, then as part of the support request, we may incidentally collect your personal data, but we will endeavor to keep that information secure and confidential.",
-      "title_num_12": "12. Retention Policy",
-      "desc_num_12": " We store the Personal Data as long as we need it and the retention practice depends on the type of data we collect, regulatory burden, and how we use the Personal Data. The retention period is based on criteria that include legally mandated retention periods, pending or potential litigation, tax and accounting laws, intellectual property or ownership rights, contract requirements, operational directives or needs, and historical archiving.\n\rIn some circumstances, we may anonymize your Personal Data for research or statistical purposes, in which case we may use this information indefinitely without further notice to you.",
-      "title_num_13": "13. Changes to the Privacy Policy",
-      "desc_num_13": "Arab Gate reserves the right to change this Privacy Policy at any time. Any changes will be posted so that you are always aware of what information we collect, how we use it, and under what circumstances we disclose it. We will inform you about the changes when it is possible."
-    }
-  },
-  "term_of_services": {
-    "title": "Terms Of Service",
-    "text_content_1": {
-      "title": "Effective as of February 22, 2022",
-      "desc": "Welcome!Arab Gate Platform, (“we,” “our,” or “us”) provides its services through its website located at <a href=\"/www.arabgatewallet.com\" target=\"_blank\">Arabgatewallet.com</a>\n\r and related mobile applications and products (collectively the “Services” or “Arab Gate”). Before using our Services, please read the Terms of Service (the “Terms” or the “Agreement”) carefully, along with any other policies or notices on Arab Gate's website or mobile applications, and our Privacy Policy. Together, these materials contain terms, rules, and guidelines related to your use of Arab Gate."
-    },
-    "text_content_2": {
-      "title": "Overview",
-      "desc": "This section provides a brief summary of the highlights of this Agreement. Please note that when you accept this Agreement, you are accepting all of the terms and conditions and not just this section. Arab Gate provides self-hosted wallet services for Bitcoin, Ethereum-based blockchains and other protocols. By creating or importing a wallet, downloading or running our mobile application, or visiting our website, you are agreeing to our Terms, so please read carefully. These terms outline approved uses of Arab Gate, various licenses that we grant to you, and licenses that you grant us. If you have any questions or comments related to this Agreement, please send us a message on our website at <a href=\"mailto:support@arabnetwork.org\">support@arabnetwork.org</a>or contact us through Facebook, Telegram, or Twitter. If you do not agree to this Agreement or any modifications to this Agreement, you should not use our Services."
-    },
-    "text_content_3": {
-      "title": "How you accept this policy",
-      "desc": "By creating or importing a locally hosted wallet (a “Wallet”), or visiting our website, you acknowledge that you have read, understood, and agreed to these Terms, as well as the accompanying [Privacy Policy] We reserve the right to change these Terms at any time. Any such changes with respect to your use of Arab Gate will take effect immediately when posted on our website or on our mobile application. Your continued use of Arab Gate following any such change will signify your acceptance to be bound by the then current Terms. Please check the effective date above to determine if there have been any changes since you have last reviewed these Terms. If you do not agree to this Agreement or any modifications to this Agreement, you should not use Arab Gate. Failure or delay by Arab Gate in enforcing or partially enforcing any provision of these Terms shall not be construed as a waiver of any rights."
-    },
-    "text_content_4": {
-      "title": "Eligibility",
-      "desc": "To be eligible to use Arab Gate, you must be at least eighteen (18) years old and be able to form legally binding contracts. If you are using our Services on behalf of a legal entity, you further represent and warrant that: (a) the legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization; and (b) you are duly authorized by such legal entity to act on its behalf. You can only use our Services if permitted under the laws of your jurisdiction. Please make sure that these Terms are in compliance with all laws, rules, and regulations that apply to you. By using Arab Gate, you represent and warrant that you meet all eligibility requirements that we outline in these Terms. We may still refuse to let certain people access or use Arab Wallet, however, and we reserve the right to change our eligibility criteria at any time."
-    },
-    "text_content_5": {
-      "title": "The blockchain services",
-      "desc": "Arab Gate is software that (a) generates Wallet addresses and encrypted private keys that you may use to send and receive Ethereum,Bitcoin and related cryptographically and secured tokens (the “Virtual Currency”); (b) allows users to browse third party decentralized applications (“DApps” or “DApp”) through the mobile application's DApp browser; and (c) facilitates the submission of Virtual Currency transaction data to Ethereum-based blockchains (the “Ethereum Networks”) bitcoin and other coins without requiring you to download or install the associated blockchain-based software to your local device. Wallet Address, Private Key, and Backup Capabilities. An encrypted backup of certain information associated with the Wallet can be stored on your device in Keystore JSON format. The private key is connected to the Wallet address and, together, they can be used to authorize the transfer of Virtual Currency to and from that Wallet address. You are solely responsible for maintaining the security of your private key and any mnemonic (backup) phrase associated with your Wallet. You must keep your Wallet address, mnemonic (backup) phrase, and private key access information secure. Failure to do so may result in the loss of control of Virtual Currency associated with the Wallet. Arab Gate Cannot Assist With Password Retrieval. Arab Gate stores your Wallet address but does not receive or store your Wallet password, encrypted private key, unencrypted private key, or mnemonic (backup) phrase associated with your Wallet. We cannot, therefore, assist you with Wallet password retrieval. We cannot generate a new password for your Wallet if you fail to remember your original password. If you have not safely stored a backup of any Wallet address and private key pairs maintained in your Wallet, you accept and acknowledge that any Virtual Currency you have associated with such a Wallet address will become inaccessible if you do not have your Wallet password. Virtual Currency Transactions. In order to be completed, all proposed Virtual Currency transactions must be confirmed and recorded in the Virtual Currency's associated public blockchain. Such networks are decentralized, peer-to-peer networks supported by independent third parties, which we do not own, control, or operate. We have no control over the Ethereum Networks or any blockchain and, therefore, cannot and do not ensure that any transaction details that you submit via our Services will be confirmed and processed. By using Arab Gate, you acknowledge and agree that the transaction details you submit may not be completed, or may be substantially delayed, by any Networks. Arab Gate Does Not Store or Transmit Virtual Currency. We do not store, send, or receive Virtual Currency. Any transfer that occurs in any Virtual Currency occurs on the blockchain and not on a network owned by us. We therefore do not guarantee that Arab Gate can affect the transfer of title or right in any Virtual Currency. Accuracy of Information Provided by User. You represent and warrant that any information you provide via the Services is accurate and complete. You accept and acknowledge that we are not responsible for any errors or omissions that you make in connection with any Virtual Currency transaction initiated via the Services. We strongly encourage you to review your transaction details carefully before attempting to transfer a Virtual Currency."
-    },
-    "text_content_6": {
-      "title": "Wallet registration and account information",
-      "desc": "You must either import or create a Wallet in order to use Arab Gate. When you create a Wallet, you will be assigned a private key. You will be prompted to download and save a keystore - your private key encrypted with a password. You will be responsible for maintaining the confidentiality of your private key and keystore, and will be fully responsible for any and all activities that occur under your account. You agree to immediately notify us of any unauthorized use of your password, account, or any other breach of security. We will not be liable for any loss or damage arising from your failure to comply with this paragraph. When you create a Wallet, you are strongly advised to take precautions in order to avoid loss of access to and/or control over your Wallet. Suggested measures include, but are not limited to, the following: (a) creating a strong password that you do not use for any other website or online service; (b) using the backup functionality provided by the Wallet or safeguard your private key and mnemonic (backup) phrase on an external hard drive which, all users are encouraged to do even if they are utilizing the Services backup functionality; (c) maintaining the security of your Wallet by protecting the private key and mnemonic (backup) phrase associated with your Wallet by, for example, limiting access to your mobile and your Wallet; and (d) promptly notifying us if you discover or otherwise suspect any security breaches related to your Wallet. Push Notifications. You may agree to receive push notifications from Arab Gate that will alert you when blockchains are congested and when transactions involving your Wallet have been completed. Push notifications can be enabled to display information about Token Launches. If you would like to receive push notifications, you must opt in to the service by accessing “Settings” and enabling “Push Notifications”. Payment and Fees. Arab Gate does not currently charge any fees for any of its Services. However, we reserve the right to do so in the future and, in such case, any applicable fees will be displayed prior to you using any service to which a fee applies. Transactions. Once transaction details have been submitted via the Services, we cannot assist you to cancel or otherwise modify your transaction. Arab Gate has no control over any blockchain and does not have the ability to facilitate any cancellation or modification requests. You must ensure that you have an adequate balance in your Wallet and/or gas to complete transactions before initiating a transaction. You acknowledge and agree that we will not be liable for any failed transactions due to insufficient funds or gas associated with your Arab Gate account. Taxes. It is your responsibility to determine what, if any, taxes apply to the transactions that you have submitted transaction details for via the Services, and it is your responsibility to report and remit the correct tax to the appropriate tax authority. You agree that we are not responsible for determining whether taxes apply to your blockchain transactions or for collecting, reporting, withholding, or remitting any taxes arising from any Virtual Currency-related transactions."
-    },
-    "text_content_7": {
-      "title": "Third party services and content",
-      "desc": "In no event shall a description or reference to a third party's product or service (including, but not limited to, providing a description or reference via hyperlink) be construed as an endorsement or promotion of such third party products or services by us. We retain the exclusive right to add to, modify, or cancel the availability of any Third Party Service. You may agree to receive push notifications from Third Party Content providers. In order to receive push notifications, you must opt into the service. Push notifications will not be automatically enabled on your device for Third Party Content. We do not control, endorse, or adopt any Third Party Content shared through push notifications, and will have no responsibility for Third Party Content including, but not limited to, token availability and/or sales. If, to the extent permitted by Arab Gate, you grant express permission to a third party to access or connect to your Arab Gate account, either through the third party's product or service or through Arab Gate, you acknowledge that granting permission to a third party to take specific actions on your behalf does not relieve you of any of your responsibilities under this Agreement. You are fully responsible for all acts or omissions of any third party with access to your Arab Gate account."
-    },
-    "text_content_8": {
-      "title": "Your use of arab gate",
-      "desc": "As a user of the Services, we grant you a limited, personal, non-commercial, non-exclusive, non-transferable, and revocable license to use Arab Gate. When using our Services, we ask that you follow some basic rules: Don't Use Our Services to Break the Law. You agree that you will not violate any laws when using our Services. This includes any local, provincial, state, federal, national, or international laws that may apply to you. You agree that you will not use our Services to pay for, support, or otherwise engage in any illegal activities including, but not limited to, illegal gambling, fraud, money laundering, or terrorist activities. If we discover that you have violated this Agreement or other regulatory requirements including, but not limited to, the Bank Secrecy Act, by participating in money laundering or by financing terrorist activities, we will take proportional disciplinary action. You further agree not to encourage or induce any third party to engage in any of the activities prohibited under this Section. Don't Interfere With Other's Use of the Services. You agree that you will not use or attempt to use another user's Wallet without authorization or use our Services in any manner that could interfere, disrupt, negatively affect, or inhibit other users from fully enjoying it. Don't Try to Harm Our System. You agree not to distribute any virus or other harmful computer code through Arab Gate. You also agree to not take any action that may impose an unreasonable or disproportionately large load on our or any of our third party providers' infrastructure. Don't Attempt to Circumvent Our Security. You agree not to bypass, circumvent, or attempt to bypass or circumvent any measures that we may use to prevent or restrict access to the Services including, without limitation, other accounts, computer systems, or networks connected to the Services. Any use of Arab Gate other than as specifically authorized in this Agreement, without our prior written permission, is strictly prohibited and will terminate your license to use Arab Gate."
-    },
-    "text_content_9": {
-      "title": "Limitation of liability & disclaimer of warranties",
-      "desc": "You understand and agree that we have no control over, and no duty to take any action regarding: Failures, disruptions, errors, or delays in processing Virtual Currency that you may experience while using the Services; The risk of failure of hardware, software, and Internet connections; The risk of malicious software being introduced or found in the software underlying Arab Gate; The risk that third parties may obtain unauthorized access to information stored within your Wallet, including, but not limited to your Wallet address, private key, and mnemonic (backup) phrase; and The risk of unknown vulnerabilities in or unanticipated changes to the Bitcoin, Ethereum, or any Network. You release us from all liability related to any losses, damages, or claims arising from: (a) user error such as forgotten passwords, incorrectly constructed transactions, or mistyped Virtual Currency addresses; (b) server failure or data loss; (c) unauthorized access to the Arab Gate application; (d) bugs or other errors in the Arab Gate software; and (e) any unauthorized third party activities, including, but not limited to, the use of viruses, phishing, brute forcing, or other means of attack against Arab Gate. We make no representations concerning any Third Party Content contained in or accessed through our Services. Any other terms, conditions, warranties, or representations associated with such content, are solely between you and such organizations and/or individuals."
-    },
-    "text_content_10": {
-      "title": "Limitation of Liability",
-      "desc": "To the fullest extent permitted by applicable law, in no event will we or any of our officers, directors, representatives, agents, servants, counsel, employees, consultants, lawyers, and other personnel authorized to act, acting, or purporting to act on our behalf (collectively the “dapps platform parties”) be liable to you under contract, tort, strict liability, negligence, or any other legal or equitable theory, for: (a) any lost profits, data loss, cost of procurement of substitute goods or services, or direct, indirect, incidental, special, punitive, compensatory, or consequential damages of any kind whatsoever resulting from: (i) your use of, or conduct in connection with, our services; (ii) any unauthorized use of your wallet address and/or private key due to your failure to maintain the confidentiality of your wallet; (iii) any interruption or cessation of transmission to or from the services; or (iv) any bugs, viruses, trojan horses, or the like that are found in the arab gate software or that may be transmitted to or through our services by any third party (regardless of the source of origination), or (b) any direct damages in excess of (in the aggregate) of the greater of: (i) fees paid to us for the applicable products. These limitations apply regardless of legal theory, whether based on tort, strict liability, breach of contract, breach of warranty, or any other legal theory, and whether or not we were advised of the possibility of such damages. Some jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, so the above limitation may not apply to you."
-    },
-    "text_content_11": {
-      "title": "Warranty Disclaimer",
-      "desc": "Arab gate is provided 'as is' and without warranty of any kind. To the maximum extent permitted by law, we disclaim all representations and warranties, express or implied, relating to the services and underlying software or any content on the services, whether provided or owned by us or by any third party, including without limitation, warranties of merchantability, fitness for a particular purpose, title, non-infringement, freedom from computer virus, and any implied warranties arising from course of dealing, course of performance, or usage in trade, all of which are expressly disclaimed. In addition, we do not represent or warrant that the content accessible via the services is accurate, complete, available, current, free of viruses or other harmful components, or that the results of using the services will meet your requirements. Some states do not allow the disclaimer of implied warranties, so the foregoing disclaimers may not apply to you. This paragraph gives you specific legal rights and you may also have other legal rights that vary from state to state."
-    },
-    "text_content_12": {
-      "title": "Force majeure",
-      "desc": "We shall not be held liable for any delays, failure in performance, or interruptions of service which result directly or indirectly from any cause or condition beyond our reasonable control, including but not limited to: any delay or failure due to any act of God, act of civil or military authorities, act of terrorism, civil disturbance, war, strike or other labor dispute, fire, interruption in telecommunications or Internet services or network provider services, failure of equipment and/or software, other catastrophe, or any other occurrence which is beyond our reasonable control and shall not affect the validity and enforceability of any remaining provisions."
-    },
-    "text_content_13": {
-      "title": "Assignment",
-      "desc": "You agree that we may assign any of our rights and/or transfer, sub-contract, or delegate any of our obligations under these Terms. Your agreement to these Terms is personal to you and you may not transfer or assign it to any third party."
-    },
-    "text_content_14": {
-      "title": "Entire agreement",
-      "desc": "This Agreement sets forth the entire understanding and agreement as to the subject matter hereof and supersedes any and all prior discussions, agreements, and understandings of any kind (including, without limitation, any prior versions of this Agreement) and every nature between us. Except as provided for above, any modification to this Agreement must be in writing and must be signed by both parties."
-    },
-    "text_content_15": {
-      "title": "Questions or comments",
-      "desc": "We welcome comments, questions, concerns, or suggestions. Please send us a message on our contact page at <a href='mailto:support@arabnetwork.org'>support@arabnetwork.org</a> or via Facebook, Telegram, Twitter or Discord."
-    }
-  },
-  "comparison": {
-    "title": "Competition Landscape",
-    "desc": "We believe that Arab Network is the first ecosystem dedicated to the Arab community making. We make sure that each of our products is bringing something new and competitive to the blockchain industry",
-    "features": {
-      "title": "Features",
-      "multi_language": "Arabic and multi-language support",
-      "live_support": "24/7 Human live support",
-      "decentralized": "Decentralized",
-      "multichain": "Multichain",
-      "bitcoin_lightning": "Bitcoin Lightning network",
-      "zkrollups": "Zkrollups",
-      "optimistic": "Optimistic rollups",
-      "solana_pay": "Solana Pay",
-      "low_fees": "Low fees"
-    }
+    "read_last": "Read the latest news",
+    "follow": "Follow Arab Network on Twitter",
+    "discussion": "Participate in open discussion",
+    "join": "Join Arab Network's Telegram & YouTube, the largest Arab crypto community.",
+    "copyright": "Copyright © 2022 . All rights reserved"
   }
 }

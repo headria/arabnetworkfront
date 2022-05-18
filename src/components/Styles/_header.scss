@@ -1,0 +1,313 @@
+.header-arabnetwork {
+    position: relative;
+    z-index: 666;
+    .top-header {
+        background-color: $background-dark;
+    }
+    .logo {
+        padding: 20px;
+        a {
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .bottom-header {
+        background-color: $primary;
+    }
+    .header-main-menu ul > li > a {
+        color: white;
+    }
+    .header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        .btn-groups {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 40px;
+        }
+    }
+    .change-theme .btn-theme {
+        width: 26px;
+        height: 26px;
+        border: none;
+        padding: 1px;
+        background-color: transparent;
+        color: white;
+        svg {
+            width: 24px;
+        }
+    }
+    .choose-lang {
+        margin: 0 15px;
+        ul {
+            position: relative;
+            .item {
+                a {
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: white;
+                    line-height: 45px;
+                }
+                i {
+                    padding-left: 6px;
+                }
+            }
+            .sub-menu {
+                position: absolute;
+                left: 0;
+                top: 110%;
+                min-width: 150px;
+                background-color: white;
+                opacity: 0;
+                visibility: hidden;
+                box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
+                transition: all linear 0.3s;
+                padding: 15px 0;
+                border-radius: 5px;
+                text-align: left;
+                margin: 0;
+                > li {
+                    white-space: nowrap;
+                    a {
+                        display: block;
+                        padding: 0px 20px;
+                        position: relative;
+                        color: #505056;
+                        transition: all 0.3s ease-out 0s;
+                        margin: 0 0;
+                        line-height: 2.5;
+                    }
+                    &:hover {
+                        a {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                .sub-menu {
+                    opacity: 1;
+                    visibility: visible;
+                    top: 100%;
+                }
+            }
+        }
+    }
+}
+
+.btn-drawer {
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+    display: none;
+}
+
+.header-main-menu {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: left;
+        > li {
+            display: inline-block;
+            margin-right: 30px;
+            margin-left: 0;
+            position: relative;
+            &:hover {
+                .sub-menu {
+                    opacity: 1;
+                    visibility: visible;
+                    top: 100%;
+                }
+            }
+            > a {
+                font-size: 15px;
+                font-weight: 500;
+                color: #0e1133;
+                line-height: 45px;
+                i {
+                    padding-left: 6px;
+                }
+            }
+            .sub-menu {
+                position: absolute;
+                right: unset;
+                left: 0;
+                top: 110%;
+                width: auto;
+                min-width: 230px;
+                max-width: 230px;
+                background-color: #fff;
+                opacity: 0;
+                visibility: hidden;
+                transition: all linear 0.3s;
+                z-index: 99;
+                box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
+                list-style-type: none;
+                margin: 0;
+                padding: 15px 0;
+                border-radius: 5px;
+                text-align: left;
+                > li {
+                    position: relative;
+                    margin-left: 0;
+                    display: block;
+                    white-space: nowrap;
+                    &:hover {
+                        .sub-menu {
+                            top: 0%;
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                        .sub-nav-toggler {
+                            color: $primary;
+                        }
+                        > a {
+                            color: $primary;
+                        }
+                    }
+                    .sub-menu {
+                        margin-left: 0px;
+                        right: auto;
+                        left: 100%;
+                        top: 50%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: all 0.3s ease-out 0s;
+                        li {
+                            position: relative;
+                            .sub-menu {
+                                right: auto;
+                                left: 100%;
+                                top: 50%;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: all 0.3s ease-out 0s;
+                            }
+                            &:hover {
+                                .sub-menu {
+                                    top: 0%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                    }
+                    .sub-nav-toggler {
+                        color: #0e1133;
+                        transition: all 0.3s ease-out 0s;
+                    }
+                    a {
+                        display: block;
+                        padding: 0px 30px;
+                        position: relative;
+                        color: #505056;
+                        transition: all 0.3s ease-out 0s;
+                        border-radius: 4px;
+                        margin: 0 0;
+                        line-height: 2.5;
+                        i {
+                            float: right;
+                            font-size: 16px;
+                            margin-top: 10px;
+                        }
+                        .sub-nav-toggler i {
+                            display: inline-block;
+                        }
+                        &:hover {
+                            padding-left: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .header-main-menu ul > li .sub-menu {
+        min-width: 230px;
+        max-width: 230px;
+    }
+}
+
+@media only screen and (min-width: 1199px) and (max-width: 1600px) {
+    .header-main-menu ul > li .sub-menu > li a {
+        padding: 0 20px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header-main-menu ul > li {
+        margin-right: 14px;
+        .sub-menu > li a {
+            padding: 0 20px;
+        }
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .header-main-menu ul > li .sub-menu {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: auto;
+        opacity: 1;
+        visibility: visible;
+        display: none;
+        right: auto;
+        transform: translateX(0%);
+        transition: all none ease-out 0s;
+        box-shadow: none;
+        text-align: left;
+        border-top: 0;
+        transition: 0s;
+        padding: 0;
+        > li {
+            a i {
+                display: none;
+            }
+            .sub-menu {
+                padding-left: 30px;
+                transition: all 0s ease-out 0s;
+                margin-left: 0;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .header-arabnetwork .header-inner {
+        justify-content: space-between;
+        .btn-groups {
+            margin-left: 0;
+        }
+        .btn-drawer {
+            display: block;
+        }
+    }
+    .header-main-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-main-menu ul > li .sub-menu > li {
+        a i {
+            display: none;
+        }
+        .sub-menu {
+            padding-left: 30px;
+            transition: all 0s ease-out 0s;
+            margin-left: 0;
+        }
+    }
+}

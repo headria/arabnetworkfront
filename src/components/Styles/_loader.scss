@@ -1,0 +1,16 @@
+.appie-loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-dark;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    opacity: 0;
+    .active {
+        opacity: 1;
+    }
+}

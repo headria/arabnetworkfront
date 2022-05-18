@@ -1,0 +1,130 @@
+.banner-section {
+    padding: 0 0 50px 0;
+    background-color: $background-dark;
+    .section-inner {
+        background-color: $background-dark3;
+        text-align: center;
+        padding: 40px 10px;
+    }
+    h1 {
+        color: $primary;
+        text-transform: uppercase;
+    }
+}
+
+/* Join Community */
+.join-community-section {
+    background-color: $background-dark;
+    .section-inner {
+        position: relative;
+        padding: 30px 20px;
+        z-index: 10;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $primary;
+            clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, calc(0% + 10px) 100%);
+            z-index: -1;
+        }
+    }
+    .text-conent h1 {
+        text-align: center;
+        color: white;
+        font-size: 36px;
+        text-transform: capitalize;
+    }
+    .button-join {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        .btn-dark {
+            font-size: 20px;
+        }
+    }
+}
+
+/* community */
+.community-section {
+    position: relative;
+    padding: 50px;
+    background-color: $background-dark;
+    z-index: 1;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $primary;
+        z-index: -1;
+        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    }
+    .section-inner {
+        padding: 30px 0;
+    }
+    .text-content {
+        border-right: 3px solid white;
+        text-align: center;
+        h1 {
+            color: white;
+        }
+    }
+    .text-desc {
+        padding-left: 50px;
+        p {
+            color: white;
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .banner-section h1 {
+        font-size: 38px;
+    }
+    .community-section {
+        .text-content {
+            border-right: none;
+            padding-bottom: 1rem;
+            h1 {
+                display: inline-block;
+                font-size: 38px;
+                border-bottom: 3px solid white;
+                padding-bottom: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-section h1 {
+        font-size: 34px;
+    }
+    .join-community-section {
+        .text-conent {
+            margin-bottom: 1.5rem;
+            h1 {
+                font-size: 24px;
+            }
+        }
+        .button-join .btn-dark {
+            font-size: 16px;
+        }
+    }
+    .community-section .text-content h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-section h1 {
+        font-size: 30px;
+    }
+}
