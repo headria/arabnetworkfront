@@ -1,18 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import arabNetworkLogo from "../../assets/images/logo-arabnetwork-white.svg";
+import arabNetworkLogoWhite from "../../assets/images/logo-arabnetwork-white.svg";
+import arabNetworkLogoDark from "../../assets/images/logo-arabnetwork-black.svg";
 
 import { t } from "i18next";
-
+// import { ThemeContext, Themes } from './Themes/themeContext';
 // TODO - detect selected language and change it.
-const HeaderArabNetwork = ({ dark, drawer, setDrawer }) => {
+
+const HeaderArabNetwork = ({
+  drawer,
+  setDrawer,
+  darkMode,
+  setDarkMode,
+  themecontext,
+  themes,
+}) => {
   return (
     <>
       <div className="header-arabnetwork">
         <div className="top-header">
           <div className="logo">
             <Link to="/">
-              <img src={arabNetworkLogo} alt="" />
+              {darkMode ? (
+                <img src={arabNetworkLogoWhite} alt="" />
+              ) : (
+                <img src={arabNetworkLogoDark} alt="" />
+              )}
             </Link>
           </div>
         </div>
@@ -20,7 +33,7 @@ const HeaderArabNetwork = ({ dark, drawer, setDrawer }) => {
           <div className="container">
             <div className="header-inner">
               <div className="header-main-menu">
-                <ul className={`${dark ? "navigation-text-Light" : ""}`}>
+                <ul className="navigation-text-Light">
                   <li>
                     <Link to="/">{t("menus.home")}</Link>
                   </li>
@@ -81,27 +94,23 @@ const HeaderArabNetwork = ({ dark, drawer, setDrawer }) => {
                   </ul>
                 </div>
                 <div className="change-theme">
-                  <button type="button" className="btn-theme">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                      ></path>
-                    </svg>
-                  </button>
-                  {/* <button type='button' className='btn-theme'>
-                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z">
-                                            </path>
-                                        </svg>
-                                    </button> */}
+                  {/* { */}
+                  <themecontext.Consumer>
+                    {({ changeTheme }) => (
+                      <button
+                        type="button"
+                        className="btn-theme"
+                        onClick={() => {
+                          setDarkMode(!darkMode);
+                          changeTheme(darkMode ? themes.light : themes.dark);
+                        }}
+                      >
+                        <i
+                          className={`fas ${darkMode ? "fa-sun" : "fa-moon"}`}
+                        ></i>
+                      </button>
+                    )}
+                  </themecontext.Consumer>
                 </div>
               </div>
               <div className="btn-show-drawer">
