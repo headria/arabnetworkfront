@@ -6,7 +6,7 @@ const RoadMap = ({ t }) => {
             <div className="roadmap-section pt-60 pb-100">
                 <div className="container">
                     <div className="section-title text-center">
-                        <h3 className='title'><span>{t('roadmap.title')}</span>{t('roadmap.title_span')}</h3>
+                        <h3 className='title'><span>{t('roadmap.title')}</span> {t('roadmap.title_span')}</h3>
                     </div>
                     <div className="section-inner mt-80">
                         <div className="row">

@@ -5,6 +5,7 @@
         border-radius: 20px;
         text-align: center;
         padding: 30px;
+        transition: all 0.3s ease-in-out;
     }
     .thumb {
         width: 100px;
@@ -21,7 +22,13 @@
             margin-bottom: 1rem;
         }
         p {
-            color: rgba(255, 255, 255, 0.6);
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+    &:hover {
+        .card-inner {
+            background-color: $primary;
+            transform: scale(1.03);
         }
     }
 }
