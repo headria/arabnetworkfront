@@ -10,7 +10,7 @@
   "excludeCacheFor": ["cimode"],
 
   "cookieMinutes": 10,
-  "cookieDomain": "arabgatewallet.com",
+  "cookieDomain": "arabnetwork.org",
 
   "htmlTag": "document.documentElement",
 
