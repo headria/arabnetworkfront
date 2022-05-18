@@ -1,0 +1,174 @@
+.light-theme {
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.light-theme .header-arabnetwork .top-header {
+    background-color: $background_light1;
+}
+.light-theme .network-hero {
+    background-color: $background_light1;
+    .hero-content {
+        .title {
+            color: $textDark;
+        }
+        p {
+            color: $textGrey;
+        }
+    }
+}
+.light-theme .arrow-text {
+    color: $textGrey;
+    &::before {
+        background-color: $textGrey;
+    }
+}
+
+.light-theme .about-arabnetwork-section {
+    background-color: $background_light1;
+    .shadow-text {
+        color: rgba($color: white, $alpha: 0.08);
+    }
+}
+
+.light-theme .section-title {
+    .title {
+        color: $textDark;
+    }
+    p {
+        color: $textGrey;
+    }
+}
+
+.light-theme .ecosystem-section {
+    background-color: $background_light1;
+}
+
+.light-theme .card-ecosystem {
+    .card-inner {
+        background-color: $background_light3;
+    }
+    .info {
+        h1 {
+            color: $textDark;
+        }
+        p {
+            color: $textGrey;
+        }
+    }
+    &:hover {
+        .card-inner {
+            background-color: $primary;
+            transform: scale(1.03);
+        }
+        .info {
+            h1 {
+                color: white;
+            }
+            p {
+                color: rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
+}
+
+.light-theme .banner-section {
+    background-color: $background_light1;
+    .section-inner {
+        background-color: #e6e6e9;
+    }
+}
+
+.light-theme .about-ecosystem-section {
+    background-color: $background_light1;
+}
+
+.light-theme .collapse-item {
+    .btn-collapse {
+        color: $textDark;
+        border-bottom-color: rgba($color: #000000, $alpha: 0.1);
+        .number {
+            color: $textSilver;
+        }
+        .arrow {
+            color: $textSilver;
+            opacity: 1;
+        }
+        &.active {
+            color: $primary;
+            .arrow {
+                color: $primary;
+            }
+        }
+    }
+    .collapse-body {
+        .card-content p {
+            color: $textGrey;
+        }
+    }
+}
+
+.light-theme .join-community-section {
+    background-color: $background_light1;
+}
+
+.light-theme .roadmap-section {
+    background-color: $background_light3;
+}
+.light-theme .column-roadmap {
+    .date-list {
+        .name {
+            color: $textDark;
+        }
+        .desc {
+            color: $textGrey;
+        }
+        > li::before {
+            background-color: white;
+        }
+    }
+    .d-list li {
+        color: $textGrey;
+    }
+}
+
+.light-theme .downlaoad-app-section {
+    background-color: $background_light1;
+    &::after {
+        background-color: $background_light2;
+    }
+    .information {
+        h2 {
+            color: $textDark;
+        }
+        .desc {
+            color: $textGrey;
+        }
+    }
+}
+
+.light-theme .community-section {
+    background-color: $background_light1;
+}
+
+.light-theme .footer {
+    background-color: $background_light3;
+    .logo,
+    .information {
+        border-right-color: rgba($color: #000000, $alpha: 0.1);
+    }
+    .social-row {
+        p {
+            color: $textDark;
+        }
+        .social-icons-list li a {
+            color: $textGrey;
+        }
+    }
+    .footer-inner {
+        border-bottom-color: rgba($color: #000000, $alpha: 0.2);
+    }
+    .copyright {
+        color: $textSilver;
+    }
+}

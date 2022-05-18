@@ -6,6 +6,7 @@ import Loader from "./components/Helper/Loader";
 
 import "react-toastify/dist/ReactToastify.css";
 import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
 
 function RoutesList() {
   const [loading, setLoading] = useState(true);
@@ -22,15 +23,16 @@ function RoutesList() {
   return (
     <>
       {loading && (
-        <div className={`appie-loader ${loading ? "active" : ""}`}>
+        <div className={`arab-loader ${loading ? "active" : ""}`}>
           <Loader />
         </div>
       )}
-      <div className={`appie-visible ${loading === false ? "active" : ""}`}>
+      <div className={`arab-visible ${loading === false ? "active" : ""}`}>
         <BrowserRouter>
           <Routes>
 
             <Route path="/" element={<Home />} exact={true} />
+            <Route path="/about" element={<About />} exact={true} />
             <Route element={<Error />} />
 
           </Routes>

@@ -34,14 +34,14 @@ function Drawer({ drawer, setDrawer, lang }) {
                             </div>
                             <div className="link-item">
                                 <div
-                                    class={`btn btn-primary ${showCollsapse === "assets" ? "active" : ""}`}
+                                    className={`btn btn-primary ${showCollsapse === "assets" ? "active" : ""}`}
                                     onClick={() => handleOpen('assets')}
                                 >
                                     {t('menus.ecosystem')}
                                     <div className="icon"><i className="fas fa-caret-right"></i></div>
                                 </div>
-                                <div class={`collapse  ${showCollsapse === "assets" ? "show" : ""}`} id="collapseExample">
-                                    <div class="card card-body">
+                                <div className={`collapse  ${showCollsapse === "assets" ? "show" : ""}`} id="collapseExample">
+                                    <div className="card card-body">
                                         <ul className="sub-links">
                                             <li>
                                                 <Link to="">eco 1</Link>

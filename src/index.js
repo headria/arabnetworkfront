@@ -13,6 +13,8 @@ import "./assets/css/font-awesome.min.css";
 import '../src/components/Styles/styles.scss'
 import "./i18n";
 import { MoralisProvider } from "react-moralis";
+import ThemeContextWrapper from "./components/Layouts/Themes/themeContextWrapper";
+
 
 function Application() {
   useEffect(() => {
@@ -23,7 +25,9 @@ function Application() {
       serverUrl="https://her2fazw2iuu.usemoralis.com:2053/server"
       appId="nm2gB4AUIzfoQbB5Y8FTO6JpxyfUvHZ2FDmsvgP1"
     >
-      <App />
+      <ThemeContextWrapper>
+        <App />
+      </ThemeContextWrapper>
     </MoralisProvider>
   );
 }
