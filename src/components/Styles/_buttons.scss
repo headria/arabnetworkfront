@@ -1,3 +1,31 @@
+.btn {
+    transition: all 0.2s ease-in-out;
+    &:hover,
+    &:focus {
+        box-shadow: none;
+    }
+}
 .btn-dark {
-    background-color: #1f222b;
+    background-color: $background-dark3;
+}
+
+.btn-primary {
+    background-color: $primary;
+    color: white;
+    padding: 0.6rem 1.1rem;
+    text-transform: capitalize;
+}
+
+.btn-primary-dark {
+    background-color: $background-dark3;
+    color: white;
+    padding: 0.6rem 1.1rem;
+    border-radius: 8px;
+    text-transform: capitalize;
+    &:hover,
+    &:focus {
+        background-color: black;
+        border-radius: 12px;
+        color: white;
+    }
 }

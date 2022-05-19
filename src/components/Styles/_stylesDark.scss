@@ -172,3 +172,20 @@
         color: $textSilver;
     }
 }
+
+.light-theme .pagehero-section {
+    background-color: $background_light1;
+    .desc {
+        color: $textGrey;
+    }
+    .social-icons-list li a {
+        color: $textSilver;
+    }
+}
+
+.light-theme .formsgroup-section {
+    background-color: $background_light2;
+    .text-content h6 {
+        color: $textDark;
+    }
+}

@@ -193,5 +193,45 @@
     "discussion": "Participate in open discussion",
     "join": "Join Arab Network's Telegram & YouTube, the largest Arab crypto community.",
     "copyright": "Copyright © 2022 . All rights reserved"
+  },
+  "contact": {
+    "title": "contact us",
+    "desc": "We look forward to connecting with you - please fill out the form below and let us know how we can help.",
+    "form_group": {
+      "title": "For media inquiries, please reach us at",
+      "form_contact": {
+        "email": "Email",
+        "first_name": "first name",
+        "last_name": "last name",
+        "company_name": "company name",
+        "select": {
+          "default_select": "Which of the following best describes your interest in Arab Network?",
+          "option_1": "Contact us",
+          "option_2": "Apply for a grant"
+        },
+        "message": "Message",
+        "message_placeholder": "Type your message",
+        "btn_send": "Send Message"
+      },
+      "form_grant": {
+        "header_title": "The Arab Network community grant program funds and provide marketing support and technical guidance for creating new smart contract applications and new ideas that advance the development of the Arab Network and bring true value across the Arab World.",
+        "title": "Apply for a grant",
+        "desc": "Arab Network Grant Program Application Form",
+        "btn_return": "Return",
+        "project_name": "Project Name",
+        "email": "Email",
+        "project_description": "Project Description",
+        "project_description_desc": "What are you going to be working on? How will your project succeed? (2000 character limit)",
+        "team_information": "Team Information",
+        "team_information_desc": "Who will be working on the project with you? How will your project succeed? (2000 character limit)",
+        "project_impact": "Project Impact",
+        "project_impact_desc": "What key problem do you hope to address? How will your work impact the larger Arab ecosystem? How will your project succeed? (2000 character limit)",
+        "needs_and_challenges": "Needs and Challenges",
+        "needs_and_challenges_desc": "What are the most significant obstacles facing your project or team right now? How will your project succeed? (2000 character limit)",
+        "previous_work": "Previous work",
+        "previous_work_desc": "Please provide links to published code, research, or any other documentation you are working on?",
+        "btn_send": "Send Message"
+      }
+    }
   }
 }

@@ -7,6 +7,7 @@ import Loader from "./components/Helper/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
+import Contact from "./components/Pages/Contact";
 
 function RoutesList() {
   const [loading, setLoading] = useState(true);
@@ -33,6 +34,7 @@ function RoutesList() {
 
             <Route path="/" element={<Home />} exact={true} />
             <Route path="/about" element={<About />} exact={true} />
+            <Route path="/contact" element={<Contact />} exact={true} />
             <Route element={<Error />} />
 
           </Routes>
