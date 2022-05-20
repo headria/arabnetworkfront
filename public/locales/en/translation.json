@@ -23,7 +23,8 @@
     "arrow_title": "Arab Network",
     "shadow_text_1": "Arab",
     "shadow_text_2": "Network",
-    "title": "What is Arab Network?",
+    "title_1": "What is",
+    "title_2": "Arab Network?",
     "desc": "Arab Network is a community that doesn't have a central command. There is no single owner. Instead, a group of people shares their knowledge in blockchain technology, business, and education, working together to empower the Arab community in blockchain for a better future."
   },
   "ecosystem": {
@@ -232,6 +233,57 @@
         "previous_work_desc": "Please provide links to published code, research, or any other documentation you are working on?",
         "btn_send": "Send Message"
       }
+    }
+  },
+  "our_vision": {
+    "title": "Our Vision",
+    "desc": "A world where value is created and exchanged by everyone in an efficient, open, and secure manner.",
+    "built": {
+      "title": "built",
+      "desc": "Arab Gate"
+    },
+    "information": {
+      "title": "We built Arab Gate as our first product for these main reasons:",
+      "ul": {
+        "li_1": "The wallet is the core component of any blockchain.",
+        "li_2": "We believe that a multi-chain wallet ecosystem is the core component of future multi-chain/cross-chain protocols.",
+        "li_3": "People use different protocols/dapps for the same need, but they usually stick with only one wallet. Hence, a multichain wallet engine can become the moat factor of our upcoming products.",
+        "li_4": "A multi-chain wallet engine will facilitate the protocols/dapps to provide a better user experience and easier control of the product implementation process."
+      }
+    }
+  },
+  "our_values": {
+    "title": "Our values",
+    "card_afraid": {
+      "title": "Don't be afraid",
+      "desc": "Dare to fail positivity is contagious, so use it!"
+    },
+    "card_think_outside": {
+      "title": "Think outside the box!",
+      "desc": "Open your mind share your ideas"
+    },
+    "card_community": {
+      "title": "Community",
+      "desc": "Lorem ipsum dolor sit amet."
+    },
+    "card_succeed_together": {
+      "title": "Succeed together",
+      "desc": "Act with integrity keep your promises"
+    },
+    "card_humans": {
+      "title": "Humans, not resources",
+      "desc": "Human begins are not 'commodities' or 'resources', you are a creative and social being"
+    }
+  },
+  "teams": {
+    "title": "Our Team Works",
+    "desc": "We will deliver the best job with the best team",
+    "card_team_1": {
+      "name": "sharif abdel khalee",
+      "job": "founder CEO of Arab Network",
+      "social_1": "",
+      "social_2": "",
+      "social_3": ""
     }
   }
 }
