@@ -258,3 +258,15 @@
 .light-theme .card-team .info .job {
     color: $textGrey;
 }
+
+.light-theme .pageText-content-section {
+    background-color: $background_light1;
+    .section-inner {
+        background-color: $background_light3;
+    }
+    .text-content {
+        p {
+            color: $textGrey;
+        }
+    }
+}

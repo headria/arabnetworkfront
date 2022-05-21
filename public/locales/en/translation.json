@@ -285,5 +285,60 @@
       "social_2": "",
       "social_3": ""
     }
+  },
+  "private_plicy": {
+    "title": "Privacy Policy",
+    "desc": "Please read and understand this privacy policy. This Privacy Policy is subject to and governed by the Arab Network Terms of Use.",
+    "text_content": {
+      "paragraph_1": "We created this privacy policy to provide you with information on collecting, processing, and using information, including personally identifiable information.",
+      "paragraph_2": "Personal information is provided by users when contacting support or applying for the Arab Network grant program.",
+      "paragraph_3": "Arab Network does not sell or disclose personal information about you described above to other people or nonaffiliated companies, except to provide you with products or services, when we have your permission, or under the following circumstances:",
+      "paragraph_4": "We retain your personal data for the duration of your business relationship with us, and we hold your information only as long as necessary for each purpose we use it unless we have obtained your consent to use it for another or similar purpose.",
+      "paragraph_5": "If you inform us that you want your personal data erased, or that you no longer wish for us to communicate with you, or to otherwise restrict Arab Network's processing of your personal data, we may retain some basic information in order to avoid sending you unwanted materials in the future and to keep a record of your request and our response.",
+      "paragraph_6": "To confirm that Arab Network is processing your personal data, or to access, update or correct the personal data Arab Network holds about you, or to obtain a copy to reuse for your own purposes, or If you want your personal data erased, or you want to otherwise restrict Arab Network's processing of personal data please send an e-mail to privacy@arabnetwork.org.",
+      "paragraph_7": "Questions or comments regarding this policy should be directed to privacy@arabnetwork.org."
+    }
+  },
+  "term_of_services": {
+    "title": "Terms Of Services",
+    "desc": "Please read these terms of use before using the websites.",
+    "text_content": {
+      "paragraph_1": "Acceptance of the Terms of Use These terms of use are entered into by and between you and the Arab Network Foundation ('Foundation', 'we' or 'us'). The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, these 'Terms of Use'), govern your access to and use of Arabnetwork.org, including any content, functionality, and services offered on or through Arabnetwork.org.",
+      "paragraph_2": "Please read the Terms of Use carefully before you start to use the Websites. By using the Websites or by clicking to accept or agree to the Terms of Use when this option is made available to you, you accept and agree to be bound and abide by these Terms of Use in addition to our",
+      "link": "Privacy Policy"
+    }
+  },
+  "intellectual_property": {
+    "title": "Intellectual Property Rights",
+    "desc": "",
+    "text_content": {
+      "paragraph_1": "The Websites and their entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection, and arrangement thereof) are owned by the Arab Network Foundation, its licensors or other providers of such material and are protected by copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws."
+    }
+  },
+  "prohibited_uses": {
+    "title": "Prohibited Uses",
+    "desc": "You may use the Websites only in accordance with these Terms of Use. You agree not to use the Website:",
+    "text_content": {
+      "paragraph_1": "• To send, knowingly receive, upload, download, use or reuse any material which does not comply with these Terms of Use.",
+      "paragraph_2": "• To impersonate or attempt to impersonate the Foundation, a Foundation employee, another user, or any other person or entity (including, without limitation, by using e-mail addresses or screen names associated with any of the foregoing).",
+      "paragraph_3": "• Use the Websites in any manner that could disable, overburden, damage, or impair the site or interfere with any other party's use of the Website, including their ability to engage in real-time activities through the Websites.",
+      "paragraph_4": "• Use any robot, spider, or other automatic devices, process, or means to access the Websites for any purpose, including monitoring or copying any material.",
+      "paragraph_5": "• Use any manual process to monitor or copy any of the material on the Websites or for any other unauthorized purpose without our prior written consent.",
+      "paragraph_6": "• Use any device, software, or routine that interferes with the proper working of the Websites."
+    }
+  },
+  "trademarks": {
+    "title": "Trademarks",
+    "desc": "",
+    "text_content": {
+      "paragraph_1": "The Foundation name, the terms Arab Network, the Arab Network logo, and all related names, logos, product and service names, designs, and slogans are trademarks of the Foundation or its affiliates or licensors. You must not use such marks without the prior written permission of the Foundation. All other names, logos, product and service names, designs, and slogans on these Websites are the trademarks of their respective owners."
+    }
+  },
+  "entire_agreement": {
+    "title": "Entire Agreement",
+    "desc": "",
+    "text_content": {
+      "paragraph_1": "The Terms of Use, our Privacy Policy, and Terms of conditions for the registration of events constitute the sole and entire agreement between you and the Arab Network Foundation with respect to the Websites and supersede all prior and contemporaneous understandings, agreements, representations, and warranties, both written and oral, with respect to the Websites."
+    }
   }
 }
