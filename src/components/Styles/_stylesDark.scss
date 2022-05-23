@@ -189,3 +189,84 @@
         color: $textDark;
     }
 }
+
+.light-theme .about-arabnetwork-section.type-2 {
+    background-color: $background_light3;
+    .section-inner {
+        &::before {
+            background-color: $textGrey;
+        }
+    }
+    .text-content {
+        h1,
+        h2 {
+            color: $textDark;
+        }
+        p {
+            color: $textGrey;
+        }
+    }
+}
+
+.light-theme .ourvision-section {
+    background-color: $background_light1;
+    .rotate-text {
+        h1 {
+            color: $textDark;
+        }
+        h2 {
+            color: $textGrey;
+        }
+    }
+    .information {
+        ul li {
+            color: $textGrey;
+        }
+    }
+}
+
+.light-theme .ourvalue-section {
+    background-color: $background_light1;
+}
+
+.light-theme .card-values {
+    .card-inner {
+        background-color: white;
+    }
+    .info {
+        h4 {
+            color: $textDark;
+        }
+        p {
+            color: $textGrey;
+        }
+    }
+    &:hover {
+        .card-inner {
+            background-color: rgba($color: $primary, $alpha: 0.4);
+        }
+    }
+}
+
+.light-theme .teams-section {
+    background-color: $background_light1;
+    &::before {
+        background-color: $background_light2;
+    }
+}
+
+.light-theme .card-team .info .job {
+    color: $textGrey;
+}
+
+.light-theme .pageText-content-section {
+    background-color: $background_light1;
+    .section-inner {
+        background-color: $background_light3;
+    }
+    .text-content {
+        p {
+            color: $textGrey;
+        }
+    }
+}

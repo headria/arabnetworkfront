@@ -66,6 +66,9 @@
         &::placeholder {
             color: rgba($color: white, $alpha: 0.5);
         }
+        &::-webkit-input-placeholder {
+            color: rgba($color: white, $alpha: 0.5);
+        }
     }
 }
 
@@ -111,6 +114,12 @@
             &::placeholder {
                 color: rgba($color: #000000, $alpha: 0.5);
             }
+        }
+        &::placeholder {
+            color: rgba($color: white, $alpha: 0.5);
+        }
+        &::-webkit-input-placeholder {
+            color: rgba($color: white, $alpha: 0.5);
         }
     }
 }

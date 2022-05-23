@@ -17,8 +17,9 @@ const AboutArabnetwork = ({ t }) => {
                             </div>
                         </div>
                         <div className="col-lg-7 order-1 order-lg-2">
-                            <div className="payment-text text-light">
-                                <h1 className="title">{t('about_arabnetwork.title')}</h1>
+                            <div className="text-content text-light">
+                                <h1>{t('about_arabnetwork.title_1')}</h1>
+                                <h2 className="title">{t('about_arabnetwork.title_2')}</h2>
                                 <p>{t('about_arabnetwork.desc')}</p>
                             </div>
                         </div>

@@ -7,7 +7,7 @@ const PageHero = ({ title, desc, haveSocialIcons, halfSize }) => {
                 <div className="container">
                     <div className="section-inner">
                         <div className="row">
-                            <div className={`${halfSize ? "col-lg-6" : "col-lg-12"}`}>
+                            <div className={`${halfSize ? "col-lg-6" : "col-lg-8"}`}>
                                 <h1 className='title'>{title}</h1>
                                 <p className='desc'>{desc}</p>
                                 {

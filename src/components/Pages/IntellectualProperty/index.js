@@ -5,13 +5,10 @@ import Footer from '../../Layouts/Footer'
 
 import { t } from "i18next";
 import { ThemeContext, Themes } from '../../Layouts/Themes/themeContext'
-import HeroAbout from './HeroAbout';
-import WhatisArabnetwork from './WhatisArabnetwork';
-import OurVision from './OurVision';
-import OurValues from './OurValues';
-import Teams from './Teams';
+import PageHero from '../../Layouts/PageHero';
+import PageTextContent from './PageTextContent';
 
-const About = () => {
+const IntellectualProperty = () => {
     const [drawer, drawerAction] = useState(false);
     const [lang, setLang] = useState(false);
     const [darkMode, setDarkMode] = useState(true);
@@ -30,15 +27,18 @@ const About = () => {
                 themecontext={ThemeContext}
                 themes={Themes}
             />
-            <HeroAbout />
-            <WhatisArabnetwork t={t} />
-            <OurVision t={t} />
-            <OurValues t={t} />
-            <Teams t={t} />
+            <PageHero
+                title={t('intellectual_property.title')}
+                desc=""
+                haveSocialIcons={false}
+                halfSize={false}
+            />
+
+            <PageTextContent t={t} />
 
             <Footer darkMode={darkMode} />
         </>
     )
 }
 
-export default About
+export default IntellectualProperty

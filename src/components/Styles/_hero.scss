@@ -50,8 +50,84 @@
     }
 }
 
+.about-header-hero {
+    background-image: url(../../assets/images/about-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 600px;
+    .section-inner {
+        height: 100%;
+        @include displayFlex(flex, flex-end, flex-start);
+        padding-bottom: 100px;
+        width: 60%;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            left: -25px;
+            bottom: 0;
+            width: 2px;
+            height: 200px;
+            background-color: white;
+        }
+    }
+    .container {
+        height: 100%;
+    }
+    .text-content {
+        h1 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        p {
+            color: rgba($color: white, $alpha: 0.8);
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .about-header-hero {
+        height: 500px;
+    }
+}
+@media (max-width: 992px) {
+    .about-header-hero {
+        height: 450px;
+        .section-inner {
+            width: 80%;
+        }
+        .text-content h1 {
+            font-size: 38px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .about-header-hero {
+        height: unset;
+        .section-inner {
+            width: 95%;
+            padding: 90px 0;
+        }
+        .text-content h1 {
+            font-size: 34px;
+        }
+    }
+}
 @media (max-width: 575px) {
     .network-hero .thumb .img-inner {
         width: 80%;
+    }
+    .about-header-hero {
+        .section-inner {
+            padding-left: 40px;
+            width: 100%;
+            &::before {
+                left: 0;
+            }
+        }
+        .text-content h1 {
+            font-size: 30px;
+        }
     }
 }

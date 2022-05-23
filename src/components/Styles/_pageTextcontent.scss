@@ -1,0 +1,28 @@
+.pageText-content-section {
+    background-color: $background-dark;
+    padding-bottom: 90px;
+    .section-inner {
+        padding: 60px 40px;
+        background-color: $background-dark3;
+    }
+    .text-content {
+        p {
+            color: rgba($color: white, $alpha: 0.8);
+            font-size: 17px;
+            line-height: 28px;
+        }
+        .link {
+            color: $primary;
+            margin: 0 5px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .pageText-content-section {
+        padding-bottom: 70px;
+        .section-inner {
+            padding: 40px 20px;
+        }
+    }
+}

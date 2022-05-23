@@ -32,3 +32,132 @@
         }
     }
 }
+
+.card-values {
+    margin-bottom: 1.5rem;
+    .card-inner {
+        background-color: $background-dark2;
+        border-radius: 20px;
+        text-align: center;
+        padding: 30px;
+        transition: all 0.3s ease-in-out;
+        min-height: 320px;
+    }
+    .thumb {
+        width: 120px;
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+    }
+    .info {
+        margin-top: 1.2rem;
+        text-align: center;
+        h4 {
+            color: white;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        p {
+            color: rgba($color: white, $alpha: 0.7);
+        }
+    }
+    &:hover {
+        .card-inner {
+            background-color: rgba($color: $primary, $alpha: 0.4);
+            transform: scale(1.03);
+        }
+    }
+}
+
+.card-team {
+    .thumb {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 3px solid $primary;
+        overflow: hidden;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .info {
+        margin-top: 1.5rem;
+        .name {
+            font-size: 20px;
+            font-weight: 600;
+            color: $primary;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+        .job {
+            font-size: 16px;
+            font-weight: 400;
+            color: white;
+        }
+    }
+    .social-icons {
+        display: flex;
+        margin-top: 1rem;
+        li {
+            font-size: 24px;
+            margin-right: 10px;
+            a {
+                color: $textSilver;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .card-team {
+        .thumb {
+            width: 100px;
+            height: 100px;
+        }
+        .info {
+            margin-top: 1.2rem;
+            .name {
+                font-size: 18px;
+            }
+            .job {
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .card-values {
+        .card-inner {
+            min-height: unset;
+            height: auto;
+        }
+        .thumb {
+            width: 100px;
+        }
+    }
+    .card-team {
+        .thumb {
+            width: 80px;
+            height: 80px;
+        }
+        .info {
+            margin-top: 1rem;
+            .name {
+                font-size: 16px;
+            }
+            .job {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .card-values {
+        .thumb {
+            width: 90px;
+        }
+    }
+}

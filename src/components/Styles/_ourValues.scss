@@ -1,0 +1,31 @@
+.ourvalue-section {
+    background-color: $background-dark;
+    position: relative;
+    z-index: 20;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-color: $primary;
+        clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+        z-index: -1;
+    }
+    .section-title {
+        .title {
+            color: $primary;
+        }
+    }
+    .section-inner {
+        width: 80%;
+        margin: 3rem auto 0 auto;
+    }
+}
+
+@media (max-width: 1400px) {
+    .ourvalue-section .section-inner {
+        width: 100%;
+    }
+}
