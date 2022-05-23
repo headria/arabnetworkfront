@@ -63,9 +63,9 @@ const HeaderArabNetwork = ({
                 </ul>
               </div>
               <div className="btn-groups">
-                <button type="button" className="btn btn-dark">
+                {/* <button type="button" className="btn btn-dark">
                   {t("menus.buy_arabcoin")}
-                </button>
+                </button> */}
                 <div className="choose-lang">
                   <ul>
                     <li className="item">
