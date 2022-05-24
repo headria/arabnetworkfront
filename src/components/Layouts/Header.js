@@ -20,7 +20,7 @@ const HeaderArabNetwork = ({
       <div className="header-arabnetwork">
         <div className="top-header">
           <div className="logo">
-            <Link to="/">
+            <Link to="/home">
               {darkMode ? (
                 <img src={arabNetworkLogoWhite} alt="" />
               ) : (

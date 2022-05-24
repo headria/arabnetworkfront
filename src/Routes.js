@@ -14,6 +14,7 @@ import IntellectualProperty from "./components/Pages/IntellectualProperty";
 import ProhibitedUses from "./components/Pages/ProhibitedUses";
 import Trademarks from "./components/Pages/Trademarks";
 import EntireAgreement from "./components/Pages/EntireAgreement";
+import ComingSoon from "./components/Pages/ComingSoon";
 
 function RoutesList() {
   const [loading, setLoading] = useState(true);
@@ -38,7 +39,8 @@ function RoutesList() {
         <BrowserRouter>
           <Routes>
 
-            <Route path="/" element={<Home />} exact={true} />
+            <Route path="/" element={<ComingSoon />} exact={true} />
+            <Route path="/home" element={<Home />} exact={true} />
             <Route path="/about" element={<About />} exact={true} />
             <Route path="/contact" element={<Contact />} exact={true} />
             <Route path="/private_policy" element={<Private />} exact={true} />
