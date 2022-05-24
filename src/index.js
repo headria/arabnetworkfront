@@ -3,13 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App";
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/custom-animated.css";
-// import "./assets/css/default.css";
 import "./assets/css/font-awesome.min.css";
-// import "./assets/css/magnific-popup.css";
-// import "./assets/css/magnific.dark.css";
-// import "./assets/css/magnific.rtl.css";
-// import "./assets/css/main.css";
-// import "./assets/css/style.css";
 import '../src/components/Styles/styles.scss'
 import "./i18n";
 import { MoralisProvider } from "react-moralis";

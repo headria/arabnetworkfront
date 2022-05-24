@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const AboutEcosystem = ({ t }) => {
+const AboutEcosystem = ({ t, lang }) => {
 
     const [showFaq, setFaq] = useState(1);
     const openFaq = (value) => {
@@ -9,7 +9,7 @@ const AboutEcosystem = ({ t }) => {
 
     return (
         <>
-            <div className="about-ecosystem-section pt-70 pb-100">
+            <div className={`about-ecosystem-section pt-70 pb-100 ${lang ? "area-rtl" : ""}`}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-4">

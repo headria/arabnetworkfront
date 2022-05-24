@@ -4,10 +4,10 @@ import downloadIos from '../../../assets/images/dowload-ios.png'
 import downloadAndroid from '../../../assets/images/download-android.png'
 import mobile from '../../../assets/images/arabnetwork-app.png'
 
-const DownloadApp = ({ t }) => {
+const DownloadApp = ({ t, lang }) => {
     return (
         <>
-            <div className="downlaoad-app-section">
+            <div className={`downlaoad-app-section ${lang ? "area-rtl" : ""}`}>
                 <div className="container">
                     <div className="section-inner">
                         <div className="row align-items-center">

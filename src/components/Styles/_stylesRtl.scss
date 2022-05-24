@@ -1,0 +1,160 @@
+.header-arabnetwork.area-rtl {
+    direction: rtl;
+    .header-inner {
+        .btn-groups {
+            margin-left: 0;
+            margin-right: 40px;
+        }
+    }
+    .header-main-menu ul > li {
+        margin-left: 30px;
+        margin-right: 0;
+        > a i {
+            padding-left: 0;
+            padding-right: 6px;
+        }
+    }
+    .choose-lang ul .item i {
+        padding-left: 0;
+        padding-right: 6px;
+    }
+}
+
+.network-hero.area-rtl {
+    direction: rtl;
+}
+
+.about-arabnetwork-section.area-rtl {
+    direction: rtl;
+    .arrow-text {
+        left: unset;
+        right: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .about-arabnetwork-section.area-rtl {
+        .arrow-text {
+            right: 0;
+        }
+    }
+}
+@media (max-width: 650px) {
+    .about-arabnetwork-section.area-rtl {
+        .arrow-text {
+            right: -20px;
+        }
+    }
+}
+
+.ecosystem-section.area-rtl {
+    direction: rtl;
+}
+
+.about-ecosystem-section.area-rtl {
+    direction: rtl;
+    .collapse-item {
+        .btn-collapse {
+            .name {
+                text-align: right;
+            }
+            .arrow {
+                margin-right: auto;
+                margin-left: unset;
+            }
+        }
+        .collapse-body .card-content {
+            text-align: right;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .about-ecosystem-section.area-rtl {
+        .collapse-item {
+            .btn-collapse .name {
+                padding-left: 10px;
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+.join-community-section.area-rtl {
+    direction: rtl;
+}
+
+.roadmap-section.area-rtl {
+    direction: rtl;
+    .column-roadmap {
+        padding-left: 0;
+        padding-right: 50px;
+        .date-list > li {
+            padding-left: 0;
+            padding-right: 50px;
+            &::before {
+                left: unset;
+                right: 0;
+            }
+            &::after {
+                left: 0;
+                right: 12px;
+            }
+        }
+        .d-list {
+            padding-left: 0;
+            padding-right: 20px;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .roadmap-section.area-rtl .column-roadmap {
+        padding-right: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .roadmap-section.area-rtl .column-roadmap {
+        padding-right: 0;
+    }
+}
+
+.downlaoad-app-section.area-rtl {
+    direction: rtl;
+    &::before {
+        background-color: #1d1f29;
+    }
+    &::after {
+        background-color: $primary;
+    }
+}
+
+.community-section.area-rtl {
+    direction: rtl;
+    .text-desc {
+        padding-left: 0;
+        padding-right: 50px;
+    }
+    .text-content {
+        border-right: none;
+        border-left: 3px solid white;
+    }
+}
+
+@media (max-width: 992px) {
+    .community-section.area-rtl {
+        .text-content {
+            border-left: none;
+        }
+    }
+}
+
+.footer.area-rtl {
+    direction: rtl;
+    .social-row .social-icons-list li {
+        margin-right: 0;
+        margin-left: 8px;
+    }
+    .copyright {
+        text-align: right;
+    }
+}

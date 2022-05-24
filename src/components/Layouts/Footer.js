@@ -5,9 +5,9 @@ import LogoBlack from '../../assets/images/logo-arabnetwork-dark-2.svg'
 
 import { t } from "i18next";
 
-const Footer = ({ darkMode }) => {
+const Footer = ({ darkMode, lang }) => {
   return (
-    <div className="footer">
+    <div className={`footer ${lang ? "area-rtl" : ""}`}>
       <div className="container">
         <div className="footer-inner">
           <div className="row align-items-start">

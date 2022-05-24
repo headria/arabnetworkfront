@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import Header from "../../Layouts/Header";
 import Drawer from "../../Layouts/Drawer";
 import Footer from "../../Layouts/Footer";
+import PageHero from "../../Layouts/PageHero";
+import FormContact from "./FormContact";
 
 import { t } from "i18next";
 import { ThemeContext, Themes } from "../../Layouts/Themes/themeContext";
-import PageHero from "../../Layouts/PageHero";
-import FormContact from "./FormContact";
 
 const Contact = () => {
   const [drawer, drawerAction] = useState(false);

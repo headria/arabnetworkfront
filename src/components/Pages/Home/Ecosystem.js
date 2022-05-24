@@ -7,10 +7,10 @@ import cardImage4 from '../../../assets/images/ecosystem-4.png'
 import cardImage5 from '../../../assets/images/ecosystem-5.png'
 import cardImage6 from '../../../assets/images/ecosystem-6.png'
 
-const Ecosystem = ({ t }) => {
+const Ecosystem = ({ t, lang }) => {
     return (
         <>
-            <div className="ecosystem-section pt-100 pb-100">
+            <div className={`ecosystem-section pt-100 pb-100 ${lang ? "area-rtl" : ""}`}>
                 <div className="container">
                     <div className="section-title text-center">
                         <h3 className='title'>{t('ecosystem.title')}</h3>

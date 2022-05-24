@@ -17,6 +17,9 @@
     }
     .bottom-header {
         background-color: $primary;
+        &.bg-danger {
+            background-color: red;
+        }
     }
     .header-main-menu ul > li > a {
         color: white;
@@ -52,11 +55,13 @@
         ul {
             position: relative;
             .item {
-                a {
+                span {
                     font-size: 15px;
                     font-weight: 500;
                     color: white;
                     line-height: 45px;
+                    user-select: none;
+                    cursor: pointer;
                 }
                 i {
                     padding-left: 6px;
@@ -78,7 +83,7 @@
                 margin: 0;
                 > li {
                     white-space: nowrap;
-                    a {
+                    span {
                         display: block;
                         padding: 0px 20px;
                         position: relative;
@@ -86,9 +91,11 @@
                         transition: all 0.3s ease-out 0s;
                         margin: 0 0;
                         line-height: 2.5;
+                        user-select: none;
+                        cursor: pointer;
                     }
                     &:hover {
-                        a {
+                        span {
                             color: $primary;
                         }
                     }

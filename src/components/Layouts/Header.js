@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import arabNetworkLogoWhite from "../../assets/images/logo-arabnetwork-white.svg";
 import arabNetworkLogoDark from "../../assets/images/logo-arabnetwork-black.svg";
 
-import { t } from "i18next";
+import { changeLanguage, t } from "i18next";
 // import { ThemeContext, Themes } from './Themes/themeContext';
 // TODO - detect selected language and change it.
 
@@ -14,10 +14,31 @@ const HeaderArabNetwork = ({
   setDarkMode,
   themecontext,
   themes,
+  setLang,
+  lang
 }) => {
+
+  const [languageText, setlanguageText] = useState('English');
+
+  const ChangeLanguage = (value) => {
+    if (value === 0) {
+      setlanguageText('English')
+      setLang(false);
+    }
+    if (value === 1) {
+      setlanguageText('Turkey')
+      setLang(false);
+    }
+    if (value === 2) {
+      setlanguageText('عربي');
+      setLang(true);
+    }
+  }
+
+
   return (
     <>
-      <div className="header-arabnetwork">
+      <div className={`header-arabnetwork ${lang ? "area-rtl" : ""}`}>
         <div className="top-header">
           <div className="logo">
             <Link to="/home">
@@ -69,32 +90,31 @@ const HeaderArabNetwork = ({
                 <div className="choose-lang">
                   <ul>
                     <li className="item">
-                      <Link to="#">
-                        English
+                      <span >
+                        {languageText}
                         <i className="fal fa-angle-down" />
-                      </Link>
+                      </span>
                     </li>
                     <ul className="sub-menu">
                       <li>
-                        <Link to="#" rel="noreferrer">
-                          {t("currency.en")}
-                        </Link>
+                        <span onClick={() => ChangeLanguage(0)}>
+                          {t("language.en")}
+                        </span>
                       </li>
                       <li>
-                        <Link to="#" rel="noreferrer">
-                          {t("currency.tr")}
-                        </Link>
+                        <span onClick={() => ChangeLanguage(1)}>
+                          {t("language.tr")}
+                        </span>
                       </li>
                       <li>
-                        <Link to="#" rel="noreferrer">
-                          {t("currency.ar")}
-                        </Link>
+                        <span onClick={() => ChangeLanguage(2)}>
+                          {t("language.ar")}
+                        </span>
                       </li>
                     </ul>
                   </ul>
                 </div>
                 <div className="change-theme">
-                  {/* { */}
                   <themecontext.Consumer>
                     {({ changeTheme }) => (
                       <button

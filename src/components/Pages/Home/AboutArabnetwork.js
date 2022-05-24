@@ -2,10 +2,10 @@ import React from 'react'
 
 import aboutImage from '../../../assets/images/arabnetwork-hero-2.png'
 
-const AboutArabnetwork = ({ t }) => {
+const AboutArabnetwork = ({ t, lang }) => {
     return (
         <>
-            <div className="about-arabnetwork-section">
+            <div className={`about-arabnetwork-section ${lang ? "area-rtl" : ""}`}>
                 <div className="arrow-text">{t('about_arabnetwork.arrow_title')}</div>
                 <div className="container">
                     <div className="row align-items-center">

@@ -2,10 +2,10 @@ import React from 'react'
 
 import headerHeroImage from '../../assets/images/arabnetwork-hero-1.png'
 
-const HeroArabnetwork = ({ t }) => {
+const HeroArabnetwork = ({ t, lang }) => {
     return (
         <>
-            <div className="network-hero">
+            <div className={`network-hero ${lang ? "area-rtl" : ""}`}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">

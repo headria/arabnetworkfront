@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Community = ({ t }) => {
+const Community = ({ t, lang }) => {
     return (
-        <div className='community-section'>
+        <div className={`community-section ${lang ? "area-rtl" : ""}`}>
             <div className="container">
                 <div className="section-inner">
                     <div className="row align-items-center">

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const RoadMap = ({ t }) => {
+const RoadMap = ({ t, lang }) => {
     return (
         <>
-            <div className="roadmap-section pt-60 pb-100">
+            <div className={`roadmap-section pt-60 pb-100 ${lang ? "area-rtl" : ""}`}>
                 <div className="container">
                     <div className="section-title text-center">
                         <h3 className='title'><span>{t('roadmap.title')}</span> {t('roadmap.title_span')}</h3>

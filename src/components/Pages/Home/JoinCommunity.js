@@ -1,16 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const JoinCommunity = ({ t }) => {
+const JoinCommunity = ({ t, lang }) => {
     return (
         <>
-            <div className="join-community-section pt-50 pb-80">
+            <div className={`join-community-section pt-50 pb-80 ${lang ? "area-rtl" : ""}`}>
                 <div className="container">
                     <div className="section-inner">
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="text-conent">
-                                    {/* <h1>Help us to build the<br /> future of Web3</h1> */}
                                     <h1>{t('banners.community.title')}</h1>
                                 </div>
                             </div>

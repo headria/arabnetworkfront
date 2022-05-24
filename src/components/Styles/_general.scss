@@ -1,5 +1,7 @@
 /*#region ----------------- General */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 *,
 *::before,
 *::after {
@@ -9,7 +11,7 @@
     padding: 0;
 }
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Noto Sans Arabic";
     font-weight: normal;
     font-style: normal;
     color: #505056;
@@ -40,7 +42,7 @@ h6,
 input,
 textarea,
 p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Noto Sans Arabic";
 }
 h1 {
     font-size: 42px;

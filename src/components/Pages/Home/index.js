@@ -21,6 +21,10 @@ const ArabNetwork = () => {
     const [lang, setLang] = useState(false);
     const [darkMode, setDarkMode] = useState(true);
 
+    // const handleChangeLang = () => {
+    //     setLang(!lang);
+    // }
+
     return (
         <>
             <Drawer
@@ -34,17 +38,19 @@ const ArabNetwork = () => {
                 setDarkMode={setDarkMode}
                 themecontext={ThemeContext}
                 themes={Themes}
+                setLang={setLang}
+                lang={lang}
             />
-            <HeroArabnetwork t={t} />
-            <AboutArabnetwork t={t} />
-            <Ecosystem t={t} />
+            <HeroArabnetwork t={t} lang={lang} />
+            <AboutArabnetwork t={t} lang={lang} />
+            <Ecosystem t={t} lang={lang} />
             <BannerLive t={t} />
-            <AboutEcosystem t={t} />
-            <JoinCommunity t={t} />
-            <RoadMap t={t} />
-            <DownloadApp t={t} />
-            <Community t={t} />
-            <Footer darkMode={darkMode} />
+            <AboutEcosystem t={t} lang={lang} />
+            <JoinCommunity t={t} lang={lang} />
+            <RoadMap t={t} lang={lang} />
+            <DownloadApp t={t} lang={lang} />
+            <Community t={t} lang={lang} />
+            <Footer darkMode={darkMode} lang={lang} />
         </>
     )
 }
