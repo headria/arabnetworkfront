@@ -7,8 +7,8 @@ const HeroAbout = ({ t, lang }) => {
                 <div className="container">
                     <div className="section-inner">
                         <div className="text-content">
-                            <h1>{t("about.title")}</h1>
-                            <p>{t("about.desc")}</p>
+                            <h1>{t("about_arabnetwork.title_3")}</h1>
+                            <p>{t("about_arabnetwork.desc")}</p>
                         </div>
                     </div>
                 </div>
