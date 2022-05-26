@@ -26,17 +26,20 @@ const ProhibitedUses = () => {
                 setDarkMode={setDarkMode}
                 themecontext={ThemeContext}
                 themes={Themes}
+                setLang={setLang}
+                lang={lang}
             />
             <PageHero
                 title={t('prohibited_uses.title')}
                 desc={t('prohibited_uses.desc')}
                 haveSocialIcons={false}
                 halfSize={false}
+                lang={lang}
             />
 
-            <PageTextContent t={t} />
+            <PageTextContent t={t} lang={lang} />
 
-            <Footer darkMode={darkMode} />
+            <Footer darkMode={darkMode} lang={lang} />
         </>
     )
 }

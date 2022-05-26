@@ -26,17 +26,20 @@ const TermOfServies = () => {
                 setDarkMode={setDarkMode}
                 themecontext={ThemeContext}
                 themes={Themes}
+                setLang={setLang}
+                lang={lang}
             />
             <PageHero
                 title={t('term_of_services.title')}
                 desc={t('term_of_services.desc')}
                 haveSocialIcons={false}
                 halfSize={false}
+                lang={lang}
             />
 
-            <PageTextContent t={t} />
+            <PageTextContent t={t} lang={lang} />
 
-            <Footer darkMode={darkMode} />
+            <Footer darkMode={darkMode} lang={lang} />
         </>
     )
 }

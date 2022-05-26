@@ -29,14 +29,16 @@ const About = () => {
                 setDarkMode={setDarkMode}
                 themecontext={ThemeContext}
                 themes={Themes}
+                setLang={setLang}
+                lang={lang}
             />
-            <HeroAbout />
-            <WhatisArabnetwork t={t} />
-            <OurVision t={t} />
-            <OurValues t={t} />
-            <Teams t={t} />
+            <HeroAbout t={t} lang={lang} />
+            <WhatisArabnetwork t={t} lang={lang} />
+            <OurVision t={t} lang={lang} />
+            <OurValues t={t} lang={lang} />
+            <Teams t={t} lang={lang} />
 
-            <Footer darkMode={darkMode} />
+            <Footer darkMode={darkMode} lang={lang} />
         </>
     )
 }

@@ -26,17 +26,20 @@ const Private = () => {
                 setDarkMode={setDarkMode}
                 themecontext={ThemeContext}
                 themes={Themes}
+                setLang={setLang}
+                lang={lang}
             />
             <PageHero
                 title={t('private_plicy.title')}
                 desc={t('private_plicy.desc')}
                 haveSocialIcons={false}
                 halfSize={false}
+                lang={lang}
             />
 
-            <PageTextContent t={t} />
+            <PageTextContent t={t} lang={lang} />
 
-            <Footer darkMode={darkMode} />
+            <Footer darkMode={darkMode} lang={lang} />
         </>
     )
 }

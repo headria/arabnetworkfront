@@ -340,5 +340,9 @@
     "text_content": {
       "paragraph_1": "The Terms of Use, our Privacy Policy, and Terms of conditions for the registration of events constitute the sole and entire agreement between you and the Arab Network Foundation with respect to the Websites and supersede all prior and contemporaneous understandings, agreements, representations, and warranties, both written and oral, with respect to the Websites."
     }
+  },
+  "about": {
+    "title": "About",
+    "desc": "Arab Network is a community that doesn't have a central command. There is no single owner. Instead, a group of people shares their knowledge in blockchain technology, business, and education, working together to empower the Arab community in blockchain for a better future."
   }
 }

@@ -2,10 +2,10 @@ import React from 'react'
 
 import mobileScreenShot from '../../../assets/images/vision-app-screenshot.png'
 
-const OurVision = ({ t }) => {
+const OurVision = ({ t, lang }) => {
     return (
         <>
-            <div className="ourvision-section pt-50 pb-100">
+            <div className={`ourvision-section pt-50 pb-100 ${lang ? "area-rtl" : ""}`}>
                 <div className="container">
                     <div className="section-title text-center">
                         <h3 className='title'>{t("our_vision.title")}</h3>

@@ -158,3 +158,104 @@
         text-align: right;
     }
 }
+
+.about-header-hero.area-rtl {
+    direction: rtl;
+    .section-inner::before {
+        left: unset;
+        right: -25px;
+    }
+}
+
+.about-arabnetwork-section.type-2.area-rtl {
+    .section-inner {
+        &::before {
+            left: unset;
+            right: -25px;
+        }
+        &::after {
+            left: unset;
+            right: -25px;
+        }
+    }
+}
+
+.ourvision-section.area-rtl {
+    direction: rtl;
+    .text-content {
+        padding-left: 0;
+        padding-right: 180px;
+    }
+    .rotate-text {
+        left: unset;
+        right: -50px;
+    }
+}
+@media (max-width: 992px) {
+    .ourvision-section.area-rtl {
+        .text-content {
+            padding-right: 140px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .ourvision-section.area-rtl {
+        .text-content {
+            padding-right: 100px;
+        }
+        .rotate-text {
+            right: 0;
+        }
+    }
+}
+
+.ourvalue-section.area-rtl {
+    direction: rtl;
+}
+
+.teams-section.area-rtl {
+    direction: rtl;
+    .section-title.text-left {
+        text-align: right !important;
+        margin: 0 0 0 auto;
+    }
+    .swiper-teams {
+        direction: ltr;
+        .swiper-button-prev {
+            right: unset;
+            left: 10px;
+        }
+        .swiper-button-next {
+            right: unset;
+            left: 70px;
+        }
+    }
+    .card-team {
+        .social-icons {
+            justify-content: flex-end;
+            li {
+                margin-right: 0;
+                margin-left: 10px;
+            }
+        }
+        .thumb {
+            margin-left: auto;
+        }
+        .info {
+            text-align: right;
+        }
+    }
+}
+
+.pagehero-section.area-rtl {
+    direction: rtl;
+}
+
+.formsgroup-section.area-rtl {
+    direction: rtl;
+}
+
+.pageText-content-section.area-rtl {
+    direction: rtl;
+}

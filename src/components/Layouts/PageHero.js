@@ -1,9 +1,9 @@
 import React from 'react'
 
-const PageHero = ({ title, desc, haveSocialIcons, halfSize }) => {
+const PageHero = ({ title, desc, haveSocialIcons, halfSize, lang }) => {
     return (
         <>
-            <div className="pagehero-section">
+            <div className={`pagehero-section ${lang ? "area-rtl" : ""}`}>
                 <div className="container">
                     <div className="section-inner">
                         <div className="row">

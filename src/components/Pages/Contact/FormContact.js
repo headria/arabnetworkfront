@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import InputGroup from "../../Layouts/Input";
 import Textarea from "../../Layouts/Textarea";
 
-const FormContact = ({ t }) => {
+const FormContact = ({ t, lang }) => {
   const [showForm, setShowForm] = useState(false);
 
   const handleChangeForm = (value) => {
@@ -12,7 +12,7 @@ const FormContact = ({ t }) => {
   };
 
   return (
-    <div className="formsgroup-section">
+    <div className={`formsgroup-section ${lang ? "area-rtl" : ""}`}>
       <div className="container">
         <div className="section-inner">
           <div className="row">
@@ -66,7 +66,7 @@ const FormContact = ({ t }) => {
                           />
                         </div>
                         <div className="col-lg-12">
-                          <div className="selectgroup mb-4">
+                          <div className={`selectgroup mb-4 ${lang ? "rtl" : ""}`}>
                             <select
                               className="form-select"
                               onChange={(e) => handleChangeForm(e.target.value)}

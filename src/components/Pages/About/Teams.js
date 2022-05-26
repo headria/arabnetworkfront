@@ -5,10 +5,10 @@ import { Navigation } from "swiper";
 import 'swiper/css'
 import "swiper/css/navigation";
 
-const Teams = ({ t }) => {
+const Teams = ({ t, lang }) => {
     return (
         <>
-            <div className="teams-section pt-100 pb-50">
+            <div className={`teams-section pt-100 pb-50 ${lang ? "area-rtl" : ""}`}>
                 <div className="container">
                     <div className="section-title text-left">
                         <h3 className='title'>{t("teams.title")}</h3>

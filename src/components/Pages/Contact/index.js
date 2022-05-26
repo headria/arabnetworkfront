@@ -11,7 +11,6 @@ import { ThemeContext, Themes } from "../../Layouts/Themes/themeContext";
 const Contact = () => {
   const [drawer, drawerAction] = useState(false);
   const [lang, setLang] = useState(false);
-
   const [darkMode, setDarkMode] = useState(true);
 
   return (
@@ -24,15 +23,18 @@ const Contact = () => {
         setDarkMode={setDarkMode}
         themecontext={ThemeContext}
         themes={Themes}
+        setLang={setLang}
+        lang={lang}
       />
       <PageHero
         title={t("contact.title")}
         desc={t("contact.desc")}
         haveSocialIcons={true}
         halfSize={true}
+        lang={lang}
       />
-      <FormContact t={t} />
-      <Footer darkMode={darkMode} />
+      <FormContact t={t} lang={lang} />
+      <Footer darkMode={darkMode} lang={lang} />
     </>
   );
 };

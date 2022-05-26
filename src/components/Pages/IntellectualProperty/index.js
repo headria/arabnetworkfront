@@ -26,17 +26,20 @@ const IntellectualProperty = () => {
                 setDarkMode={setDarkMode}
                 themecontext={ThemeContext}
                 themes={Themes}
+                setLang={setLang}
+                lang={lang}
             />
             <PageHero
                 title={t('intellectual_property.title')}
                 desc=""
                 haveSocialIcons={false}
                 halfSize={false}
+                lang={lang}
             />
 
-            <PageTextContent t={t} />
+            <PageTextContent t={t} lang={lang} />
 
-            <Footer darkMode={darkMode} />
+            <Footer darkMode={darkMode} lang={lang} />
         </>
     )
 }

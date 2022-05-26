@@ -21,10 +21,6 @@ const ArabNetwork = () => {
     const [lang, setLang] = useState(false);
     const [darkMode, setDarkMode] = useState(true);
 
-    // const handleChangeLang = () => {
-    //     setLang(!lang);
-    // }
-
     return (
         <>
             <Drawer

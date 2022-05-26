@@ -6,10 +6,10 @@ import valueImage3 from '../../../assets/images/values-3.png'
 import valueImage4 from '../../../assets/images/values-4.png'
 import valueImage5 from '../../../assets/images/values-5.png'
 
-const OurValues = ({ t }) => {
+const OurValues = ({ t, lang }) => {
     return (
         <>
-            <div className="ourvalue-section pt-100 pb-140">
+            <div className={`ourvalue-section pt-100 pb-140 ${lang ? "area-rtl" : ""}`}>
                 <div className="container">
                     <div className="section-title text-center">
                         <h3 className='title'>{t('our_values.title')}</h3>
