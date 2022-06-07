@@ -7,7 +7,13 @@
     "community": "Community",
     "contact": "Contact",
     "about": "About",
-    "buy_arabcoin": "Buy Arab Coin"
+    "buy_arabcoin": "Buy Arab Coin",
+    "privacy": "Privacy Policy",
+    "term": "Terms",
+    "intellectual_property_rights": "Intellectual Property Rights",
+    "trademarks": "Trademarks",
+    "prohibited_uses": "Prohibited Uses",
+    "entire_agreement": "Entire Agreement"
   },
   "language": {
     "ar": "عربي",
@@ -54,6 +60,14 @@
       },
       "card_grant": {
         "title": "Arab Network Grant Program",
+        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
+      },
+      "card_devtrezor": {
+        "title": "Devtrezor",
+        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
+      },
+      "card_prison_knowledge": {
+        "title": "Prison Of Knowledge",
         "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
       }
     },

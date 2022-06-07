@@ -4,6 +4,7 @@ import LogoWhite from '../../assets/images/logo-arabnetwork-white-2.svg'
 import LogoBlack from '../../assets/images/logo-arabnetwork-dark-2.svg'
 
 import { t } from "i18next";
+import { Link } from 'react-router-dom';
 
 const Footer = ({ darkMode, lang }) => {
   return (
@@ -34,8 +35,6 @@ const Footer = ({ darkMode, lang }) => {
                   </ul>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
               <div className="information">
                 <div className="social-row">
                   <p>{t('footer.read_last')}</p>
@@ -52,7 +51,7 @@ const Footer = ({ darkMode, lang }) => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="information no-border">
+              <div className="information no-borders">
                 <div className="social-row">
                   <p>{t('footer.discussion')}</p>
                   <ul className='social-icons-list'>
@@ -65,6 +64,18 @@ const Footer = ({ darkMode, lang }) => {
                 <div className="social-row">
                   <p>{t('footer.join')}</p>
                 </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="links">
+                <ul>
+                  <li><Link to="">{t("menus.privacy")}</Link></li>
+                  <li><Link to="">{t("menus.term")}</Link></li>
+                  <li><Link to="">{t("menus.intellectual_property_rights")}</Link></li>
+                  <li><Link to="">{t("menus.trademarks")}</Link></li>
+                  <li><Link to="">{t("menus.prohibited_uses")}</Link></li>
+                  <li><Link to="">{t("menus.entire_agreement")}</Link></li>
+                </ul>
               </div>
             </div>
           </div>

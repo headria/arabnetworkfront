@@ -1,6 +1,6 @@
 import React from 'react'
 
-import aboutImage from '../../../assets/images/arabnetwork-hero-2.png'
+import aboutImage from '../../../assets/images/about-arabnetwork-2.png'
 
 const AboutArabnetwork = ({ t, lang }) => {
     return (

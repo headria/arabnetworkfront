@@ -1,6 +1,6 @@
 /* Hero */
 .network-hero {
-    background-color: $background-dark;
+    background-color: $background_dark;
     overflow: hidden;
     position: relative;
     padding: 80px 0;
@@ -18,30 +18,30 @@
     }
     .thumb {
         position: relative;
-        &::before {
-            content: "";
-            position: absolute;
-            top: 50%;
-            right: 50%;
-            width: 550px;
-            height: 550px;
-            transform: translate(50%, -50%);
-            background-color: rgba(0, 0, 0, 0.05);
-            border-radius: 50%;
-        }
-        &::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            right: 50%;
-            width: 900px;
-            height: 900px;
-            transform: translate(50%, -50%);
-            background-color: rgba(0, 0, 0, 0.05);
-            border-radius: 50%;
-        }
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     top: 50%;
+        //     right: 50%;
+        //     width: 550px;
+        //     height: 550px;
+        //     transform: translate(50%, -50%);
+        //     background-color: rgba(0, 0, 0, 0.05);
+        //     border-radius: 50%;
+        // }
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     top: 50%;
+        //     right: 50%;
+        //     width: 900px;
+        //     height: 900px;
+        //     transform: translate(50%, -50%);
+        //     background-color: rgba(0, 0, 0, 0.05);
+        //     border-radius: 50%;
+        // }
         .img-inner {
-            width: 400px;
+            width: 550px;
             margin: 0 auto;
         }
         img {

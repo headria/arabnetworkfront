@@ -1,8 +1,8 @@
 .banner-section {
     padding: 0 0 50px 0;
-    background-color: $background-dark;
+    background-color: $background_dark;
     .section-inner {
-        background-color: $background-dark3;
+        background-color: $background_dark3;
         text-align: center;
         padding: 40px 10px;
     }
@@ -14,7 +14,7 @@
 
 /* Join Community */
 .join-community-section {
-    background-color: $background-dark;
+    background-color: $background_dark;
     .section-inner {
         position: relative;
         padding: 30px 20px;
@@ -62,7 +62,7 @@
 .community-section {
     position: relative;
     padding: 50px;
-    background-color: $background-dark;
+    background-color: $background_dark;
     z-index: 1;
     &::before {
         content: "";

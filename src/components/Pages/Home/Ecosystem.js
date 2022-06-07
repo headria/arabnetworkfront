@@ -6,6 +6,8 @@ import cardImage3 from '../../../assets/images/ecosystem-3.png'
 import cardImage4 from '../../../assets/images/ecosystem-4.png'
 import cardImage5 from '../../../assets/images/ecosystem-5.png'
 import cardImage6 from '../../../assets/images/ecosystem-6.png'
+import cardImage7 from '../../../assets/images/ecosystem-7.png'
+import cardImage8 from '../../../assets/images/ecosystem-8.png'
 
 const Ecosystem = ({ t, lang }) => {
     return (
@@ -17,7 +19,7 @@ const Ecosystem = ({ t, lang }) => {
                         <p>{t('ecosystem.desc')}</p>
                     </div>
                     <div className="section-inner mt-50">
-                        <div className="row">
+                        <div className="row justify-content-center">
                             <div className="col-lg-4 col-md-6">
                                 <div className="card-ecosystem">
                                     <div className="card-inner">
@@ -91,6 +93,32 @@ const Ecosystem = ({ t, lang }) => {
                                         <div className="info">
                                             <h1>{t('ecosystem.cards_ecosystek_list.card_grant.title')}</h1>
                                             <p>{t('ecosystem.cards_ecosystek_list.card_grant.desc')}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="card-ecosystem">
+                                    <div className="card-inner">
+                                        <div className="thumb">
+                                            <img src={cardImage7} alt="eco-img" />
+                                        </div>
+                                        <div className="info">
+                                            <h1>{t('ecosystem.cards_ecosystek_list.card_devtrezor.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystek_list.card_devtrezor.desc')}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="card-ecosystem">
+                                    <div className="card-inner">
+                                        <div className="thumb">
+                                            <img src={cardImage8} alt="eco-img" />
+                                        </div>
+                                        <div className="info">
+                                            <h1>{t('ecosystem.cards_ecosystek_list.card_prison_knowledge.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystek_list.card_prison_knowledge.desc')}</p>
                                         </div>
                                     </div>
                                 </div>

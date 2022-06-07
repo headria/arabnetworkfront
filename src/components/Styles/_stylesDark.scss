@@ -270,3 +270,42 @@
         }
     }
 }
+
+.light-theme .keeptouch-section {
+    background-color: $background_light1;
+    .section-title .title {
+        color: $primary;
+    }
+    .card-social {
+        .card-inner {
+            background-color: white;
+        }
+        .icon {
+            i {
+                color: $primary;
+            }
+            svg {
+                fill: $primary;
+            }
+        }
+        h6 {
+            color: $textDark;
+        }
+        &:hover {
+            .card-inner {
+                background-color: $primary;
+            }
+            .icon {
+                i {
+                    color: white;
+                }
+                svg {
+                    fill: white;
+                }
+            }
+            h6 {
+                color: white;
+            }
+        }
+    }
+}

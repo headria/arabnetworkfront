@@ -1,7 +1,7 @@
 .card-ecosystem {
     margin-bottom: 2rem;
     .card-inner {
-        background-color: $background-dark2;
+        background-color: $background_dark2;
         border-radius: 20px;
         text-align: center;
         padding: 30px;
@@ -36,7 +36,7 @@
 .card-values {
     margin-bottom: 1.5rem;
     .card-inner {
-        background-color: $background-dark2;
+        background-color: $background_dark2;
         border-radius: 20px;
         text-align: center;
         padding: 30px;
@@ -106,6 +106,44 @@
             a {
                 color: $textSilver;
             }
+        }
+    }
+}
+
+.card-social {
+    padding: 10px;
+    .card-inner {
+        display: block;
+        text-align: center;
+        background-color: $background_dark2;
+        padding: 25px 10px;
+        border-radius: 15px;
+        transition: all 0.2s ease-in-out;
+    }
+    .icon {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto;
+        @include displayFlex(flex, center, center);
+        i {
+            font-size: 24px;
+            color: white;
+        }
+        svg {
+            width: 24px;
+            fill: white;
+        }
+    }
+    h6 {
+        margin: 5px 0 0 0;
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    &:hover {
+        .card-inner {
+            transform: scale(1.05);
+            background-color: $primary;
         }
     }
 }

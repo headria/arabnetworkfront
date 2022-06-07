@@ -11,7 +11,7 @@ const DownloadApp = ({ t, lang }) => {
                 <div className="container">
                     <div className="section-inner">
                         <div className="row align-items-center">
-                            <div className="col-lg-7">
+                            <div className="col-lg-6">
                                 <div className="text-content">
                                     <h1 className='title'>{t('download_app.title')}</h1>
                                     <div className="information">
@@ -30,7 +30,7 @@ const DownloadApp = ({ t, lang }) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-5">
+                            <div className="col-lg-6">
                                 <div className="thumb">
                                     <div className="img-inner">
                                         <img src={mobile} alt="img-name" />

@@ -15,6 +15,7 @@ import RoadMap from './RoadMap'
 
 import { t } from "i18next";
 import { ThemeContext, Themes } from '../../Layouts/Themes/themeContext'
+import KeepTouch from '../../Layouts/KeepTouch'
 
 const ArabNetwork = () => {
     const [drawer, drawerAction] = useState(false);
@@ -40,8 +41,9 @@ const ArabNetwork = () => {
             <HeroArabnetwork t={t} lang={lang} />
             <AboutArabnetwork t={t} lang={lang} />
             <Ecosystem t={t} lang={lang} />
-            <BannerLive t={t} />
-            <AboutEcosystem t={t} lang={lang} />
+            {/* <BannerLive t={t} /> */}
+            {/* <AboutEcosystem t={t} lang={lang} /> */}
+            <KeepTouch t={t} lang={lang} />
             <JoinCommunity t={t} lang={lang} />
             <RoadMap t={t} lang={lang} />
             <DownloadApp t={t} lang={lang} />

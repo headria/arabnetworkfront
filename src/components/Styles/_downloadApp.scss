@@ -1,5 +1,5 @@
 .downlaoad-app-section {
-    background-color: $background-dark;
+    background-color: $background_dark;
     position: relative;
     overflow: hidden;
     padding: 60px 100px 120px 100px;
@@ -22,7 +22,7 @@
         transform: translateY(-50%);
         height: 70%;
         width: 80px;
-        background-color: $background-dark3;
+        background-color: $background_dark3;
         clip-path: polygon(0 calc(0% + 10px), 100% 0, 100% 100%, 0 calc(100% - 10px));
     }
     .text-content {
@@ -60,7 +60,7 @@
         }
     }
     .thumb .img-inner {
-        width: 350px;
+        width: 450px;
         margin: 0 auto;
         img {
             width: 100%;
@@ -71,7 +71,7 @@
 @media (max-width: 1199px) {
     .downlaoad-app-section {
         .thumb .img-inner {
-            width: 315px;
+            width: 350px;
         }
         .text-content .title {
             font-size: 36px;
@@ -97,9 +97,6 @@
         }
         .thumb {
             margin-top: 3.5rem;
-            .img-inner {
-                width: 300px;
-            }
         }
     }
 }
@@ -122,7 +119,7 @@
             font-size: 20px;
         }
         .thumb .img-inner {
-            width: 80%;
+            width: 95%;
         }
     }
 }
