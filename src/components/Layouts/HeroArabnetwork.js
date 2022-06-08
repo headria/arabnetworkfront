@@ -1,8 +1,11 @@
 import React from 'react'
+import VideoPlayer from 'react-background-video-player';
 
 import headerHeroImage from '../../assets/images/arabnetwork-hero-1.png'
+import videoplayback_dark from '../../assets/videos/an-blockchain-dark.mp4'
+import videoplayback_light from '../../assets/videos/an-blockchain-light.mp4'
 
-const HeroArabnetwork = ({ t, lang }) => {
+const HeroArabnetwork = ({ t, lang, dark }) => {
     return (
         <>
             <div className={`network-hero ${lang ? "area-rtl" : ""}`}>
@@ -15,10 +18,27 @@ const HeroArabnetwork = ({ t, lang }) => {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="thumb">
+                            {/* <div className="thumb">
                                 <div className="img-inner">
                                     <img src={headerHeroImage} alt="" />
                                 </div>
+                            </div> */}
+                            <div className="video-thumb">
+                                {dark ? (
+                                    <VideoPlayer
+                                        className="video-hero"
+                                        src={videoplayback_dark}
+                                        autoPlay={true}
+                                        muted={true}
+                                    />
+                                ) : (
+                                    <VideoPlayer
+                                        className="video-hero"
+                                        src={videoplayback_light}
+                                        autoPlay={true}
+                                        muted={true}
+                                    />
+                                )}
                             </div>
                         </div>
                     </div>

@@ -38,7 +38,7 @@ const ArabNetwork = () => {
                 setLang={setLang}
                 lang={lang}
             />
-            <HeroArabnetwork t={t} lang={lang} />
+            <HeroArabnetwork t={t} lang={lang} dark={darkMode} />
             <AboutArabnetwork t={t} lang={lang} />
             <Ecosystem t={t} lang={lang} />
             {/* <BannerLive t={t} /> */}
