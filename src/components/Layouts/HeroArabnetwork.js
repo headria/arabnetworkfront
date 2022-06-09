@@ -1,14 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import VideoPlayer from 'react-background-video-player';
+import { isIOS, isWindows } from 'react-device-detect'
 
 import headerHeroImage from '../../assets/images/arabnetwork-hero-1.png'
 import videoplayback_dark from '../../assets/videos/an-blockchain-dark.mp4'
 import videoplayback_light from '../../assets/videos/an-blockchain-light.mp4'
 
 const HeroArabnetwork = ({ t, lang, dark }) => {
+
+    const [iosColor, setIosColor] = useState(true);
+
+    // if (isIOS) {
+    //     return setIosColor(true)
+    // } else {
+    //     return setIosColor(false)
+    // }
+
     return (
         <>
-            <div className={`network-hero ${lang ? "area-rtl" : ""}`}>
+            <div className={`network-hero ${lang ? "area-rtl" : ""} ${isIOS ? "iosback" : ""}`}
+            >
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
