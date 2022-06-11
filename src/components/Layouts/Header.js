@@ -74,6 +74,15 @@ const HeaderArabNetwork = ({
                     <Link to="/community">{t("menus.community")}</Link>
                   </li> */}
                   <li>
+                    <a
+                      href="https://whitepaper.arabnetwork.org"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {t("menus.whitepaper")}
+                    </a>
+                  </li>
+                  <li>
                     <Link to="/contact">{t("menus.contact")}</Link>
                   </li>
                   <li>

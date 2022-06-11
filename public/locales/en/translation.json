@@ -7,6 +7,8 @@
     "community": "Community",
     "contact": "Contact",
     "about": "About",
+    "whitepaper": "Whitepaper",
+    "github": "Github",
     "buy_arabcoin": "Buy Arab Coin",
     "privacy": "Privacy Policy",
     "term": "Terms",
@@ -202,6 +204,8 @@
     }
   },
   "footer": {
+    "general": "General",
+    "developers": "Developers",
     "get_involve": {
       "title": "Get involved",
       "desc": "Don't be a stranger, connect with the community here"

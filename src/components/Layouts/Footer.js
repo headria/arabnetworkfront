@@ -8,7 +8,11 @@ import { Link } from "react-router-dom";
 
 const Footer = ({ darkMode, lang }) => {
   return (
-    <div className={`footer ${lang ? "area-rtl" : ""} ${darkMode ? "area-dark" : ""}`}>
+    <div
+      className={`footer ${lang ? "area-rtl" : ""} ${
+        darkMode ? "area-dark" : ""
+      }`}
+    >
       <div className="container">
         <div className="footer-inner">
           <div className="row align-items-start">
@@ -111,10 +115,16 @@ const Footer = ({ darkMode, lang }) => {
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="links">
-                <h4>Developers</h4>
+                <h4> {t("footer.developers")}</h4>
                 <ul>
                   <li>
-                    <Link to="#">Get Started</Link>
+                    <a
+                      href="https://whitepaper.arabnetwork.org"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {t("menus.whitepaper")}
+                    </a>
                   </li>
                   <li>
                     <a
@@ -122,7 +132,7 @@ const Footer = ({ darkMode, lang }) => {
                       href="https://github.com/Arab-Network"
                       rel="noreferrer"
                     >
-                      Github
+                      {t("menus.github")}
                     </a>
                   </li>
                 </ul>
@@ -130,7 +140,7 @@ const Footer = ({ darkMode, lang }) => {
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="links">
-                <h4>General</h4>
+                <h4> {t("footer.general")}</h4>
                 <ul>
                   <li>
                     <Link to="/private_policy">{t("menus.privacy")}</Link>
