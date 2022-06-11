@@ -110,12 +110,12 @@
   "banners": {
     "live": "Let's live the Arab dream together.",
     "community": {
-      "title": "Our community decided to revolutionize the world Be a part of the future",
+      "title": "Our community decided to revolutionize the world, Be part of the future",
       "join_community": "Join the Community"
     },
     "about_community": {
       "title": "Community",
-      "desc": "The Arab Community decided to revolutionize the Arab world Be a part of the future."
+      "desc": "The Arab Community decided to revolutionize the Arab world Be part of the future."
     }
   },
   "roadmap": {
