@@ -25,12 +25,21 @@
         }
         p {
             color: rgba(255, 255, 255, 0.7);
+            @include textTruncate(3);
+            text-align: justify;
         }
     }
     &:hover {
         .card-inner {
             background-color: $primary;
             transform: scale(1.03);
+        }
+        .info {
+            p {
+                -webkit-line-clamp: unset;
+                -webkit-box-orient: vertical;
+                overflow: unset;
+            }
         }
     }
 }

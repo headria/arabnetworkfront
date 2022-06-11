@@ -39,7 +39,7 @@ const HeaderArabNetwork = ({
       <div className={`header-arabnetwork ${lang ? "area-rtl" : ""}`}>
         <div className="top-header">
           <div className="logo">
-            <Link to="/home">
+            <Link to="/">
               {darkMode ? (
                 <img src={arabNetworkLogoWhite} alt="" />
               ) : (

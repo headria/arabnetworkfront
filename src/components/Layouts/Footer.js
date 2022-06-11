@@ -8,11 +8,11 @@ import { Link } from "react-router-dom";
 
 const Footer = ({ darkMode, lang }) => {
   return (
-    <div className={`footer ${lang ? "area-rtl" : ""}`}>
+    <div className={`footer ${lang ? "area-rtl" : ""} ${darkMode ? "area-dark" : ""}`}>
       <div className="container">
         <div className="footer-inner">
           <div className="row align-items-start">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-12">
               <div className="logo">
                 <div className="img-inner">
                   {darkMode ? (
@@ -158,22 +158,6 @@ const Footer = ({ darkMode, lang }) => {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              {/* <div className="information no-borders">
-                <div className="social-row">
-                  <p>{t('footer.discussion')}</p>
-                  <ul className='social-icons-list'>
-                    <ul className='social-icons-list'>
-                      <li><a href='#' target="_blank"><i className="fab fa-youtube-square"></i></a></li>
-                      <li><a href='#' target="_blank"><i className="fab fa-telegram"></i></a></li>
-                    </ul>
-                  </ul>
-                </div>
-                <div className="social-row">
-                  <p>{t('footer.join')}</p>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>
