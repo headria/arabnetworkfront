@@ -12,11 +12,12 @@ import RoadMap from "./RoadMap";
 import { t } from "i18next";
 import { ThemeContext, Themes } from "../../Layouts/Themes/themeContext";
 import KeepTouch from "../../Layouts/KeepTouch";
+import useDarkMode from "../../Hooks/useDarkMode";
 
 const ArabNetwork = () => {
   const [drawer, drawerAction] = useState(false);
   const [lang, setLang] = useState(false);
-  const [darkMode, setDarkMode] = useState(true);
+  const { darkMode, setDarkMode } = useDarkMode();
 
   return (
     <>

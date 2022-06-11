@@ -1,4 +1,22 @@
 import { useCookies } from "react-cookie";
+
 const useDarkMode = () => {
-  const [dark, setDarkMode] = useCookies();
+  const [cookies, setCookie] = useCookies(["darkMode"]);
+
+  const handleUpdateDarkMode = () => {
+    try {
+      const dark = JSON.parse(cookies.darkMode);
+      if (dark) setCookie("darkMode", false);
+      else setCookie("darkMode", true);
+    } catch {
+      setCookie("darkMode", true);
+    }
+    console.log(cookies.darkMode);
+  };
+  return {
+    darkMode: JSON.parse(cookies.darkMode) || false,
+    setDarkMode: handleUpdateDarkMode,
+  };
 };
+
+export default useDarkMode;
