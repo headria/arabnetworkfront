@@ -8,7 +8,7 @@ const FormContact = ({ t, lang }) => {
   const handleChangeForm = (value) => {
     const v = parseInt(value);
     if (v === 0) setShowForm(false);
-    if (v === 1) setShowForm(true);
+    if (v === 3) setShowForm(true);
   };
 
   return (
@@ -72,19 +72,34 @@ const FormContact = ({ t, lang }) => {
                               onChange={(e) => handleChangeForm(e.target.value)}
                             >
                               <option defaultValue disabled>
-                                {t(
-                                  "contact.form_group.form_contact.select.default_select"
-                                )}
+                                {t("contact.form_group.form_contact.select.default_select")}
                               </option>
                               <option value={0}>
-                                {t(
-                                  "contact.form_group.form_contact.select.option_1"
-                                )}
+                                {t("contact.form_group.form_contact.select.option_1")}
                               </option>
                               <option value={1}>
-                                {t(
-                                  "contact.form_group.form_contact.select.option_2"
-                                )}
+                                {t("contact.form_group.form_contact.select.option_2")}
+                              </option>
+                              <option value={2}>
+                                {t("contact.form_group.form_contact.select.option_3")}
+                              </option>
+                              <option value={3}>
+                                {t("contact.form_group.form_contact.select.option_4")}
+                              </option>
+                              <option value={4}>
+                                {t("contact.form_group.form_contact.select.option_5")}
+                              </option>
+                              <option value={5}>
+                                {t("contact.form_group.form_contact.select.option_6")}
+                              </option>
+                              <option value={6}>
+                                {t("contact.form_group.form_contact.select.option_7")}
+                              </option>
+                              <option value={7}>
+                                {t("contact.form_group.form_contact.select.option_8")}
+                              </option>
+                              <option value={8}>
+                                {t("contact.form_group.form_contact.select.option_9")}
                               </option>
                             </select>
                           </div>

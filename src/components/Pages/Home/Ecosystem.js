@@ -16,13 +16,13 @@ const Ecosystem = ({ t, lang }) => {
                 <div className="container">
                     <div className="section-title text-center">
                         <h3 className='title'>{t('ecosystem.title')}</h3>
-                        <p>{t('ecosystem.desc')}</p>
+                        {/* <p>{t('ecosystem.desc')}</p> */}
                     </div>
                     <div className="section-inner mt-50">
                         <div className="row justify-content-center">
                             <div className="col-lg-4 col-md-6">
                                 <div className="card-ecosystem">
-                                    <div className="card-inner">
+                                    <a href='https://arabgatewallet.com' target="_blank" className="card-inner">
                                         <div className="thumb">
                                             <img src={cardImage1} alt="eco-img" />
                                         </div>
@@ -30,7 +30,7 @@ const Ecosystem = ({ t, lang }) => {
                                             <h1>{t('ecosystem.cards_ecosystek_list.card_arabgate.title')}</h1>
                                             <p>{t('ecosystem.cards_ecosystek_list.card_arabgate.desc')}</p>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
@@ -57,18 +57,6 @@ const Ecosystem = ({ t, lang }) => {
                                             <p>{t('ecosystem.cards_ecosystek_list.card_crypto.desc')}</p>
                                         </div>
                                     </div>
-                                </div></div>
-                            <div className="col-lg-4 col-md-6">
-                                <div className="card-ecosystem">
-                                    <div className="card-inner">
-                                        <div className="thumb">
-                                            <img src={cardImage4} alt="eco-img" />
-                                        </div>
-                                        <div className="info">
-                                            <h1>{t('ecosystem.cards_ecosystek_list.card_nft.title')}</h1>
-                                            <p>{t('ecosystem.cards_ecosystek_list.card_nft.desc')}</p>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
@@ -88,19 +76,6 @@ const Ecosystem = ({ t, lang }) => {
                                 <div className="card-ecosystem">
                                     <div className="card-inner">
                                         <div className="thumb">
-                                            <img src={cardImage6} alt="eco-img" />
-                                        </div>
-                                        <div className="info">
-                                            <h1>{t('ecosystem.cards_ecosystek_list.card_grant.title')}</h1>
-                                            <p>{t('ecosystem.cards_ecosystek_list.card_grant.desc')}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6">
-                                <div className="card-ecosystem">
-                                    <div className="card-inner">
-                                        <div className="thumb">
                                             <img src={cardImage7} alt="eco-img" />
                                         </div>
                                         <div className="info">
@@ -110,6 +85,33 @@ const Ecosystem = ({ t, lang }) => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="card-ecosystem">
+                                    <div className="card-inner">
+                                        <div className="thumb">
+                                            <img src={cardImage4} alt="eco-img" />
+                                        </div>
+                                        <div className="info">
+                                            <h1>{t('ecosystem.cards_ecosystek_list.card_nft.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystek_list.card_nft.desc')}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="card-ecosystem">
+                                    <div className="card-inner">
+                                        <div className="thumb">
+                                            <img src={cardImage6} alt="eco-img" />
+                                        </div>
+                                        <div className="info">
+                                            <h1>{t('ecosystem.cards_ecosystek_list.card_grant.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystek_list.card_grant.desc')}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div className="col-lg-4 col-md-6">
                                 <div className="card-ecosystem">
                                     <div className="card-inner">

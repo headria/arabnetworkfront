@@ -6,6 +6,8 @@
         text-align: center;
         padding: 30px;
         transition: all 0.3s ease-in-out;
+        display: block;
+        user-select: none;
     }
     .thumb {
         width: 100px;

@@ -15,7 +15,8 @@ const RoadMap = ({ t, lang }) => {
                                     <ul className='date-list'>
                                         <li>
                                             <div className="name">{t("roadmap.road_list.q2_2020.title")}</div>
-                                            <div className="desc">{t("roadmap.road_list.q2_2020.desc")}</div>
+                                            <div className="desc">{t("roadmap.road_list.q2_2020.desc_1")}</div>
+                                            <div className="desc">{t("roadmap.road_list.q2_2020.desc_2")}</div>
                                         </li>
                                         <li>
                                             <div className="name">{t("roadmap.road_list.q4_2020.title")}</div>
@@ -52,23 +53,23 @@ const RoadMap = ({ t, lang }) => {
                                     <ul className='date-list'>
                                         <li>
                                             <div className="name">{t("roadmap.road_list.q1_p2_2022.title")}</div>
-                                            <div className="desc">{t("roadmap.road_list.q1_p2_2022.desc")}</div>
+                                            <div className="desc">{t("roadmap.road_list.q1_p2_2022.desc_1")}</div>
                                             <ul className='d-list'>
                                                 <li>{t("roadmap.road_list.q1_p2_2022.ul.li_1")}</li>
                                                 <li>{t("roadmap.road_list.q1_p2_2022.ul.li_2")}</li>
-                                                <li>{t("roadmap.road_list.q1_p2_2022.ul.li_3")}</li>
-                                                <li>{t("roadmap.road_list.q1_p2_2022.ul.li_4")}</li>
                                             </ul>
+                                            <div className="desc">{t("roadmap.road_list.q1_p2_2022.desc_2")}</div>
+                                            <div className="desc">{t("roadmap.road_list.q1_p2_2022.desc_3")}</div>
                                         </li>
                                         <li>
                                             <div className="name">{t("roadmap.road_list.q1_p3_2022.title")}</div>
-                                            <div className="desc">{t("roadmap.road_list.q1_p3_2022.desc")}</div>
+                                            <div className="desc">{t("roadmap.road_list.q1_p3_2022.desc_1")}</div>
                                             <ul className='d-list'>
                                                 <li>{t("roadmap.road_list.q1_p3_2022.ul.li_1")}</li>
                                                 <li>{t("roadmap.road_list.q1_p3_2022.ul.li_2")}</li>
                                                 <li>{t("roadmap.road_list.q1_p3_2022.ul.li_3")}</li>
-                                                <li>{t("roadmap.road_list.q1_p3_2022.ul.li_4")}</li>
                                             </ul>
+                                            <div className="desc">{t("roadmap.road_list.q1_p3_2022.desc_2")}</div>
                                         </li>
                                         <li>
                                             <div className="name">{t("roadmap.road_list.q4_p1_2022.title")}</div>
@@ -81,7 +82,8 @@ const RoadMap = ({ t, lang }) => {
                                         </li>
                                         <li>
                                             <div className="name">{t("roadmap.road_list.q4_p2_2022.title")}</div>
-                                            <div className="desc">{t("roadmap.road_list.q4_p2_2022.desc")}</div>
+                                            <div className="desc">{t("roadmap.road_list.q4_p2_2022.desc_1")}</div>
+                                            <div className="desc">{t("roadmap.road_list.q4_p2_2022.desc_2")}</div>
                                         </li>
                                         <li>
                                             <div className="name">{t("roadmap.road_list.q2_2023.title")}</div>

@@ -23,7 +23,7 @@
   "index_hero": {
     "title": "your gateway for future",
     "span": "opportunities",
-    "desc": "a world where value is created and exchanged by everyone in an efficient, open and secure manner"
+    "desc": "A world where value is created and exchanged by everyone in an efficient, open, and secure manner"
   },
   "about_arabnetwork": {
     "arrow_title": "Arab Network",
@@ -40,35 +40,35 @@
     "cards_ecosystek_list": {
       "card_arabgate": {
         "title": "Arab Gate",
-        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
+        "desc": "All in One Gate, Arab Gate is a non-custodial wallet that will connect billions of users around the world safely. Arab Gate offers multi-chain (NFT & cryptocurrency), DEX, DApp Browser, Payment solutions, and AI Virtual assistant."
       },
       "card_blockchain": {
         "title": "Arab Network Blockchain",
-        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
+        "desc": "Arab Network Blockchain, combines the best of Ethereum and sovereign blockchains to give a full-stack scaling solution for public blockchains."
       },
       "card_crypto": {
         "title": "Arab Crypto Talk",
-        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
+        "desc": "As a part of the Arab Network, Arab Crypto Talk is dedicated to building an open, diverse, and progressive financial and educational community that embraces the latest in cutting-edge technology."
       },
       "card_nft": {
         "title": "Babylon NFT Marketplace",
-        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
+        "desc": "Babylon offers a seamless marketplace interface for a wide range of use cases, including gaming, and metaverse platforms. With this, creatives, businesses, and entrepreneurs may start laying their hands on rewarding avenues and transacting their NFTs. Creating an NFT marketplace has never been easier!"
       },
       "card_academy": {
-        "title": "Arab Academy Devtrezor",
-        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
+        "title": "Arab Network Academy",
+        "desc": "Arab Academy is the World's first cryptocurrency & Blockchain Education platform that will revolutionize the Arab World with a mission to empower people and educate them about cryptocurrency, blockchain, and programming"
       },
       "card_grant": {
         "title": "Arab Network Grant Program",
-        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
+        "desc": "The Arab Network community grant program funds the creation of new smart contract applications and new ideas that advances the development of the Arab Network and brings true value across the Arab World"
       },
       "card_devtrezor": {
         "title": "Devtrezor",
-        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
+        "desc": "Devtrezor is a blockchain solution for developers that gives API access to full nodes from many different blockchains"
       },
       "card_prison_knowledge": {
         "title": "Prison Of Knowledge",
-        "desc": "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers."
+        "desc": "Prison Of Knowledge is the first virtual reality platform powered by the Arab Network. The prison of knowledge is a concept developed by the Arab Network team with a vision of getting players into a world (the prison) where users will interact with the Arab Network ecosystem in a virtual world. Users may develop, enjoy, and monetize content and apps. The community permanently holds land in Prison Of Knowledge, providing them complete ownership over their works"
       }
     },
     "about_ecosystem": {
@@ -124,7 +124,8 @@
     "road_list": {
       "q2_2020": {
         "title": "Q2.2020",
-        "desc": "Founding the Arab network community.** **Team build-up.**"
+        "desc_1": "Founding the Arab network community.",
+        "desc_2": "Team build-up."
       },
       "q4_2020": {
         "title": "Q4.2020",
@@ -147,7 +148,7 @@
         }
       },
       "arab_wallet_app": {
-        "title": "Arab wallet App",
+        "title": "Arab wallet App Android & IOS version release",
         "ul": {
           "li_1": "NFT deployed",
           "li_2": "Launch Arab coin"
@@ -155,36 +156,37 @@
       },
       "q1_p2_2022": {
         "title": "Q1.P2 2022",
-        "desc": "Seeking the latest blockchain technologies",
+        "desc_1": "Seeking the latest blockchain technologies",
         "ul": {
           "li_1": "Team Buildup",
-          "li_2": "Setting up the whole infrastructure",
-          "li_3": "Arab Gate exchange launch",
-          "li_4": "Babylon NFT Marketplace tested release"
-        }
+          "li_2": "Setting up the whole infrastructure"
+        },
+        "desc_2": "Arab Gate exchange launch",
+        "desc_3": "Babylon NFT Marketplace tested release"
       },
       "q1_p3_2022": {
         "title": "Q1.P3 2022",
-        "desc": "Arab blockchain project launch",
+        "desc_1": "Arab blockchain project launch",
         "ul": {
           "li_1": "Blockchain node analysis and connection",
           "li_2": "Noorseen protocol up and running",
-          "li_3": "Explorer front end development",
-          "li_4": "Arab NFT platform mainnet launch"
-        }
+          "li_3": "Explorer front end development"
+        },
+        "desc_2": "Arab NFT platform mainnet launch"
       },
       "q4_p1_2022": {
         "title": "Q4 P1. 2022",
         "desc_1": "Launch the Testnet of Arab Blockchain",
         "desc_2": "Launch Devtrezor mainnet",
         "ul": {
-          "li_1": ">Whitepaper v2 released",
+          "li_1": "Whitepaper v2 released",
           "li_2": "TPS Performance test"
         }
       },
       "q4_p2_2022": {
         "title": "Q4 P2.2022",
-        "desc": "Hardware wallet first prototype Hala AI-VA beta launch**"
+        "desc_1": "Hardware wallet first prototype",
+        "desc_2": "Hala AI-VA beta launch"
       },
       "q2_2023": {
         "title": "Q2. 2023",
@@ -222,8 +224,15 @@
         "company_name": "company name",
         "select": {
           "default_select": "Which of the following best describes your interest in Arab Network?",
-          "option_1": "Contact us",
-          "option_2": "Apply for a grant"
+          "option_1": "Research, innovation, and technical blockchain information",
+          "option_2": "Developer Support",
+          "option_3": "Wallet Support",
+          "option_4": "Grant programs to fund my research, development, infrastructure, education, or community engagement initiative",
+          "option_5": "Get involved with the Arab Network community",
+          "option_6": "Investment opportunities",
+          "option_7": "Marketing and press inquiries",
+          "option_8": "Career opportunities",
+          "option_9": "Other"
         },
         "message": "Message",
         "message_placeholder": "Type your message",
@@ -311,7 +320,7 @@
       "paragraph_4": "We retain your personal data for the duration of your business relationship with us, and we hold your information only as long as necessary for each purpose we use it unless we have obtained your consent to use it for another or similar purpose.",
       "paragraph_5": "If you inform us that you want your personal data erased, or that you no longer wish for us to communicate with you, or to otherwise restrict Arab Network's processing of your personal data, we may retain some basic information in order to avoid sending you unwanted materials in the future and to keep a record of your request and our response.",
       "paragraph_6": "To confirm that Arab Network is processing your personal data, or to access, update or correct the personal data Arab Network holds about you, or to obtain a copy to reuse for your own purposes, or If you want your personal data erased, or you want to otherwise restrict Arab Network's processing of personal data please send an e-mail to privacy@arabnetwork.org.",
-      "paragraph_7": "Questions or comments regarding this policy should be directed to privacy@arabnetwork.org."
+      "paragraph_7": "Questions or comments regarding this policy should be directed to privacy@arabnetwork.org.."
     }
   },
   "term_of_services": {

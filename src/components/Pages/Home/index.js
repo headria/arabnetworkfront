@@ -43,8 +43,8 @@ const ArabNetwork = () => {
             <Ecosystem t={t} lang={lang} />
             {/* <BannerLive t={t} /> */}
             {/* <AboutEcosystem t={t} lang={lang} /> */}
-            <KeepTouch t={t} lang={lang} />
             <JoinCommunity t={t} lang={lang} />
+            <KeepTouch t={t} lang={lang} />
             <RoadMap t={t} lang={lang} />
             <DownloadApp t={t} lang={lang} />
             <Community t={t} lang={lang} />
