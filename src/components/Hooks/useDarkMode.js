@@ -14,7 +14,7 @@ const useDarkMode = () => {
     console.log(cookies.darkMode);
   };
   return {
-    darkMode: JSON.parse(cookies.darkMode) || false,
+    darkMode: cookies.darkMode ? JSON.parse(cookies.darkMode) : true,
     setDarkMode: handleUpdateDarkMode,
   };
 };

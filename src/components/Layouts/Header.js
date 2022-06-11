@@ -34,6 +34,7 @@ const HeaderArabNetwork = ({
     }
   };
 
+  useEffect(() => {}, [darkMode]);
   return (
     <>
       <div className={`header-arabnetwork ${lang ? "area-rtl" : ""}`}>
@@ -123,20 +124,23 @@ const HeaderArabNetwork = ({
                 </div>
                 <div className="change-theme">
                   <themecontext.Consumer>
-                    {({ changeTheme }) => (
-                      <button
-                        type="button"
-                        className="btn-theme"
-                        onClick={() => {
-                          setDarkMode(!darkMode);
-                          changeTheme(darkMode ? themes.light : themes.dark);
-                        }}
-                      >
-                        <i
-                          className={`fas ${darkMode ? "fa-sun" : "fa-moon"}`}
-                        ></i>
-                      </button>
-                    )}
+                    {({ changeTheme }) => {
+                      changeTheme(darkMode ? themes.dark : themes.light);
+
+                      return (
+                        <button
+                          type="button"
+                          className="btn-theme"
+                          onClick={() => {
+                            setDarkMode(!darkMode);
+                          }}
+                        >
+                          <i
+                            className={`fas ${darkMode ? "fa-sun" : "fa-moon"}`}
+                          ></i>
+                        </button>
+                      );
+                    }}
                   </themecontext.Consumer>
                 </div>
               </div>
