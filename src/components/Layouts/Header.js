@@ -15,26 +15,24 @@ const HeaderArabNetwork = ({
   themecontext,
   themes,
   setLang,
-  lang
+  lang,
 }) => {
-
-  const [languageText, setlanguageText] = useState('English');
+  const [languageText, setlanguageText] = useState("English");
 
   const ChangeLanguage = (value) => {
     if (value === 0) {
-      setlanguageText('English')
+      setlanguageText("English");
       setLang(false);
     }
     if (value === 1) {
-      setlanguageText('Turkey')
+      setlanguageText("Turkey");
       setLang(false);
     }
     if (value === 2) {
-      setlanguageText('عربي');
+      setlanguageText("عربي");
       setLang(true);
     }
-  }
-
+  };
 
   return (
     <>
@@ -58,7 +56,7 @@ const HeaderArabNetwork = ({
                   <li>
                     <Link to="/">{t("menus.home")}</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="#">
                       {t("menus.ecosystem")}
                       <i className="fal fa-angle-down" />
@@ -71,10 +69,10 @@ const HeaderArabNetwork = ({
                         <Link to="#">Eco 2</Link>
                       </li>
                     </ul>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link to="/community">{t("menus.community")}</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/contact">{t("menus.contact")}</Link>
                   </li>
@@ -90,7 +88,7 @@ const HeaderArabNetwork = ({
                 <div className="choose-lang">
                   <ul>
                     <li className="item">
-                      <span >
+                      <span>
                         {languageText}
                         <i className="fal fa-angle-down" />
                       </span>
