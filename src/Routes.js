@@ -38,19 +38,33 @@ function RoutesList() {
       <div className={`arab-visible ${loading === false ? "active" : ""}`}>
         <BrowserRouter>
           <Routes>
-
-            <Route path="/" element={<ComingSoon />} exact={true} />
-            <Route path="/home" element={<Home />} exact={true} />
+            {/* <Route path="/" element={<ComingSoon />} exact={true} /> */}
+            <Route path="/" element={<Home />} exact={true} />
             <Route path="/about" element={<About />} exact={true} />
             <Route path="/contact" element={<Contact />} exact={true} />
             <Route path="/private_policy" element={<Private />} exact={true} />
-            <Route path="/term_of_services" element={<TermOfServies />} exact={true} />
-            <Route path="/intellectual_property" element={<IntellectualProperty />} exact={true} />
-            <Route path="/prohibited_uses" element={<ProhibitedUses />} exact={true} />
+            <Route
+              path="/term_of_services"
+              element={<TermOfServies />}
+              exact={true}
+            />
+            <Route
+              path="/intellectual_property"
+              element={<IntellectualProperty />}
+              exact={true}
+            />
+            <Route
+              path="/prohibited_uses"
+              element={<ProhibitedUses />}
+              exact={true}
+            />
             <Route path="/trademarks" element={<Trademarks />} exact={true} />
-            <Route path="/entire_agreement" element={<EntireAgreement />} exact={true} />
+            <Route
+              path="/entire_agreement"
+              element={<EntireAgreement />}
+              exact={true}
+            />
             <Route element={<Error />} />
-
           </Routes>
         </BrowserRouter>
       </div>
