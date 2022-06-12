@@ -21,6 +21,7 @@ const HeaderArabNetwork = ({
 
   const ChangeLanguage = (value) => {
     if (value === 0) {
+      changeLanguage("en");
       setlanguageText("English");
       setLang(false);
     }
@@ -29,6 +30,7 @@ const HeaderArabNetwork = ({
       setLang(false);
     }
     if (value === 2) {
+      changeLanguage("ar");
       setlanguageText("عربي");
       setLang(true);
     }
