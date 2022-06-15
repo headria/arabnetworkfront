@@ -11,10 +11,12 @@ import OurVision from "./OurVision";
 import OurValues from "./OurValues";
 import Teams from "./Teams";
 import useDarkMode from "../../Hooks/useDarkMode";
+import useLanguage from "../../Hooks/useLanguage";
 
 const About = () => {
   const [drawer, drawerAction] = useState(false);
-  const [lang, setLang] = useState(false);
+  const { dir } = useLanguage();
+  const [lang, setLang] = useState(dir);
   const { darkMode, setDarkMode } = useDarkMode();
 
   return (

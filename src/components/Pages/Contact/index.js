@@ -8,10 +8,12 @@ import FormContact from "./FormContact";
 import { t } from "i18next";
 import { ThemeContext, Themes } from "../../Layouts/Themes/themeContext";
 import useDarkMode from "../../Hooks/useDarkMode";
+import useLanguage from "../../Hooks/useLanguage";
 
 const Contact = () => {
   const [drawer, drawerAction] = useState(false);
-  const [lang, setLang] = useState(false);
+  const { dir } = useLanguage();
+  const [lang, setLang] = useState(dir);
   const { darkMode: darkmode, setDarkMode: updateDarkMode } = useDarkMode();
 
   return (

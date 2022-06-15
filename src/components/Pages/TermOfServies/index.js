@@ -8,10 +8,12 @@ import { ThemeContext, Themes } from "../../Layouts/Themes/themeContext";
 import PageHero from "../../Layouts/PageHero";
 import PageTextContent from "./PageTextContent";
 import useDarkMode from "../../Hooks/useDarkMode";
+import useLanguage from "../../Hooks/useLanguage";
 
 const TermOfServies = () => {
   const [drawer, drawerAction] = useState(false);
-  const [lang, setLang] = useState(false);
+  const { dir } = useLanguage();
+  const [lang, setLang] = useState(dir);
   const { darkMode: darkmode, setDarkMode: updateDarkMode } = useDarkMode();
 
   return (
