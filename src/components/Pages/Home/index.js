@@ -14,6 +14,7 @@ import { ThemeContext, Themes } from "../../Layouts/Themes/themeContext";
 import KeepTouch from "../../Layouts/KeepTouch";
 import useDarkMode from "../../Hooks/useDarkMode";
 import useLanguage from "../../Hooks/useLanguage";
+import Partnership from "./Partnership";
 
 const ArabNetwork = () => {
   const [drawer, drawerAction] = useState(false);
@@ -41,6 +42,7 @@ const ArabNetwork = () => {
       {/* <AboutEcosystem t={t} lang={lang} /> */}
       <JoinCommunity t={t} lang={lang} />
       <KeepTouch t={t} lang={lang} />
+      <Partnership t={t} lang={lang} darkMode={darkMode} />
       <RoadMap t={t} lang={lang} />
       <DownloadApp t={t} lang={lang} />
       <Footer darkMode={darkMode} lang={lang} />

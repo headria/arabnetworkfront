@@ -32,7 +32,7 @@ function Drawer({ drawer, setDrawer, lang }) {
                                     {t('menus.home')}
                                 </Link>
                             </div>
-                            <div className="link-item">
+                            {/* <div className="link-item">
                                 <div
                                     className={`btn btn-primary ${showCollsapse === "assets" ? "active" : ""}`}
                                     onClick={() => handleOpen('assets')}
@@ -52,11 +52,14 @@ function Drawer({ drawer, setDrawer, lang }) {
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="link-item">
-                                <Link to="/community" className="btn btn-primary">
-                                    {t('menus.community')}
-                                </Link>
+                                <a href="https://whitepaper.arabnetwork.org"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="btn btn-primary">
+                                    {t('menus.whitepaper')}
+                                </a>
                             </div>
                             <div className="link-item">
                                 <Link to="/contact" className="btn btn-primary">

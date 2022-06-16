@@ -81,42 +81,148 @@
     }
 }
 
+// .card-team {
+//     .thumb {
+//         width: 120px;
+//         height: 120px;
+//         border-radius: 50%;
+//         border: 3px solid $primary;
+//         overflow: hidden;
+//         img {
+//             width: 100%;
+//             object-fit: cover;
+//         }
+//     }
+//     .info {
+//         margin-top: 1.5rem;
+//         .name {
+//             font-size: 20px;
+//             font-weight: 600;
+//             color: $primary;
+//             text-transform: capitalize;
+//             margin-bottom: 10px;
+//         }
+//         .job {
+//             font-size: 16px;
+//             font-weight: 400;
+//             color: white;
+//         }
+//     }
+//     .social-icons {
+//         display: flex;
+//         margin-top: 1rem;
+//         li {
+//             font-size: 24px;
+//             margin-right: 10px;
+//             a {
+//                 color: $textSilver;
+//             }
+//         }
+//     }
+// }
+
 .card-team {
+    /* margin-top: 2rem; */
+}
+.card-team {
+    padding: 0 5px;
+    .card-inner {
+        background-color: $background_dark4;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        padding: 35px 20px;
+        /* height: 320px; */
+        transition: all 0.3s ease-in-out;
+        cursor: default;
+        border: 1px solid transparent;
+    }
     .thumb {
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
         border-radius: 50%;
-        border: 3px solid $primary;
         overflow: hidden;
         img {
+            object-fit: contain;
             width: 100%;
-            object-fit: cover;
         }
     }
     .info {
-        margin-top: 1.5rem;
+        text-align: center;
+        margin-top: 2rem;
         .name {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 600;
-            color: $primary;
-            text-transform: capitalize;
-            margin-bottom: 10px;
-        }
-        .job {
-            font-size: 16px;
-            font-weight: 400;
+            line-height: 27px;
             color: white;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+            @include textTruncate(1);
+            transition: all 0.3s ease-in-out;
+            text-align: center;
+        }
+        h3 {
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba($color: #fff, $alpha: 0.8);
+            text-transform: capitalize;
+            @include textTruncate(1);
+            text-align: center;
+        }
+        p {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 23px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: rgba($color: #fff, $alpha: 0.7);
+            @include textTruncate(3);
+            text-align: center;
         }
     }
-    .social-icons {
-        display: flex;
-        margin-top: 1rem;
+    ul {
+        @include displayFlex(flex, center, center);
+        margin-top: 2rem;
         li {
-            font-size: 24px;
-            margin-right: 10px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            margin: 0 5px;
+            background-color: transparent;
+            border: 1px solid rgba($color: #fff, $alpha: 0.3);
+            transition: all 0.2s ease-in-out;
             a {
-                color: $textSilver;
+                width: 100%;
+                height: 100%;
+                @include displayFlex(flex, center, center);
             }
+            i {
+                color: white;
+                line-height: 0;
+                font-size: 16px;
+            }
+            &:hover {
+                background-color: $primary;
+                border-color: $primary;
+                i {
+                    color: white;
+                }
+            }
+        }
+    }
+    .other-link {
+        margin-top: 20px;
+    }
+    &:hover {
+        .card-inner {
+            height: auto;
+            border-color: rgba($color: $primary, $alpha: 1);
+        }
+        .info .name,
+        .info h3 {
+            -webkit-line-clamp: unset;
+            overflow: unset;
         }
     }
 }

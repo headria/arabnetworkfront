@@ -280,6 +280,35 @@
     &::before {
         background-color: $background_light2;
     }
+    .card-team {
+        .card-inner {
+            background-color: white;
+        }
+        .thumb {
+            border: 2px solid $textSilver;
+        }
+        .info {
+            .name {
+                color: $textDark;
+            }
+            h3,
+            p {
+                color: $textGrey;
+            }
+        }
+        ul li {
+            border-color: $textSilver;
+            i {
+                color: $textSilver;
+            }
+            &:hover {
+                border-color: $primary;
+                i {
+                    color: white;
+                }
+            }
+        }
+    }
 }
 
 .light-theme .card-team .info .job {
@@ -335,4 +364,8 @@
             }
         }
     }
+}
+
+.light-theme .partnership-section {
+    background-color: $background_light1;
 }
