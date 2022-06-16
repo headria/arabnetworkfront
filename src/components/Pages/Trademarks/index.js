@@ -14,6 +14,7 @@ const Trademarks = () => {
   const [drawer, drawerAction] = useState(false);
   const { dir } = useLanguage();
   const [lang, setLang] = useState(dir);
+
   const { darkMode: darkmode, setDarkMode: updateDarkMode } = useDarkMode();
 
   return (
