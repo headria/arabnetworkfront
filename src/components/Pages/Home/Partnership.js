@@ -36,7 +36,7 @@ const Partnership = ({ t, lang, darkMode }) => {
                                     </div>
                                 </div>
                             </div> */}
-              <div className="col-lg-4 col-md-12">
+              {/* <div className="col-lg-4 col-md-12">
                 <div className="card-partnership">
                   <div className="card-inner">
                     <div className="img-content">
@@ -48,7 +48,7 @@ const Partnership = ({ t, lang, darkMode }) => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
