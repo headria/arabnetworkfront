@@ -18,9 +18,9 @@
     "entire_agreement": "Entire Agreement"
   },
   "language": {
-    "ar": "عربي",
     "en": "English",
-    "tr": "Turkish"
+    "tr": "Turkish",
+    "ar": "عربي"
   },
   "index_hero": {
     "title": "your gateway for future",
@@ -39,7 +39,7 @@
   "ecosystem": {
     "title": "We are building a revolutionary ecosystem",
     "desc": "We've got everything you need to start trading",
-    "cards_ecosystek_list": {
+    "cards_ecosystem_list": {
       "card_arabgate": {
         "title": "Arab Gate",
         "desc": "All in One Gate, Arab Gate is a non-custodial wallet that will connect billions of users around the world safely. Arab Gate offers multi-chain (NFT & cryptocurrency), DEX, DApp Browser, Payment solutions, and AI Virtual assistant."

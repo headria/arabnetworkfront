@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import arabNetworkLogoWhite from "../../assets/images/logo-arabnetwork-white.svg";
-import arabNetworkLogoDark from "../../assets/images/logo-arabnetwork-black.svg";
+import arabNetworkLogoWhite from "../../../assets/images/logo-arabnetwork-white.svg";
+import arabNetworkLogoDark from "../../../assets/images/logo-arabnetwork-black.svg";
 
 import { changeLanguage, t } from "i18next";
+
+
+import NavLists from "./NavLists";
+import LanguageList from "./LanguageList";
 // import { ThemeContext, Themes } from './Themes/themeContext';
 // TODO - detect selected language and change it.
 
@@ -36,7 +40,7 @@ const HeaderArabNetwork = ({
     }
   };
 
-  useEffect(() => {}, [darkMode]);
+  useEffect(() => { }, [darkMode]);
   return (
     <>
       <div className={`header-arabnetwork ${lang ? "area-rtl" : ""}`}>
@@ -55,50 +59,18 @@ const HeaderArabNetwork = ({
           <div className="container">
             <div className="header-inner">
               <div className="header-main-menu">
-                <ul className="navigation-text-Light">
-                  <li>
-                    <Link to="/">{t("menus.home")}</Link>
-                  </li>
-                  {/* <li>
-                    <Link to="#">
-                      {t("menus.ecosystem")}
-                      <i className="fal fa-angle-down" />
-                    </Link>
-                    <ul className="sub-menu">
-                      <li>
-                        <Link to="#">Eco 1</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Eco 2</Link>
-                      </li>
-                    </ul>
-                  </li> */}
-                  {/* <li>
-                    <Link to="/community">{t("menus.community")}</Link>
-                  </li> */}
-                  <li>
-                    <a
-                      href="https://whitepaper.arabnetwork.org"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {t("menus.whitepaper")}
-                    </a>
-                  </li>
-                  <li>
-                    <Link to="/contact">{t("menus.contact")}</Link>
-                  </li>
-                  <li>
-                    <Link to="/about">{t("menus.about")}</Link>
-                  </li>
-                </ul>
+
+                <NavLists t={t} />
+
               </div>
               <div className="btn-groups">
                 {/* <button type="button" className="btn btn-dark">
                   {t("menus.buy_arabcoin")}
                 </button> */}
                 <div className="choose-lang">
-                  <ul>
+
+                  <LanguageList t={t} changelanguage={ChangeLanguage} languageText={languageText} />
+                  {/* <ul>
                     <li className="item">
                       <span>
                         {languageText}
@@ -122,7 +94,7 @@ const HeaderArabNetwork = ({
                         </span>
                       </li>
                     </ul>
-                  </ul>
+                  </ul> */}
                 </div>
                 <div className="change-theme">
                   <themecontext.Consumer>

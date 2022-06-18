@@ -1,15 +1,21 @@
 import React from 'react'
 
-import cardImage1 from '../../../assets/images/ecosystem-1.png'
-import cardImage2 from '../../../assets/images/ecosystem-2.png'
-import cardImage3 from '../../../assets/images/ecosystem-3.png'
-import cardImage4 from '../../../assets/images/ecosystem-4.png'
-import cardImage5 from '../../../assets/images/ecosystem-5.png'
-import cardImage6 from '../../../assets/images/ecosystem-6.png'
-import cardImage7 from '../../../assets/images/ecosystem-7.png'
-import cardImage8 from '../../../assets/images/ecosystem-8.png'
+import { CardEco } from '../../Layouts/CardEco'
+
+// import cardImage1 from '../../../assets/images/ecosystem-1.png'
+// import cardImage2 from '../../../assets/images/ecosystem-2.png'
+// import cardImage3 from '../../../assets/images/ecosystem-3.png'
+// import cardImage4 from '../../../assets/images/ecosystem-4.png'
+// import cardImage5 from '../../../assets/images/ecosystem-5.png'
+// import cardImage6 from '../../../assets/images/ecosystem-6.png'
+// import cardImage7 from '../../../assets/images/ecosystem-7.png'
+// import cardImage8 from '../../../assets/images/ecosystem-8.png'
 
 const Ecosystem = ({ t, lang }) => {
+
+    const ecoCardsList = t('cards_ecosystem_list', { returnObject: true })
+    // console.log(ecoCardsList)
+
     return (
         <>
             <div className={`ecosystem-section pt-100 pb-100 ${lang ? "area-rtl" : ""}`}>
@@ -20,6 +26,17 @@ const Ecosystem = ({ t, lang }) => {
                     </div>
                     <div className="section-inner mt-50">
                         <div className="row justify-content-center">
+                            {
+                                Object.keys(ecoCardsList).map((card, i) => (
+                                    <div className="col-lg-4 col-md-6" key={i}>
+                                        <CardEco
+                                            t={t}
+                                        />
+                                    </div>
+                                ))
+                            }
+                        </div>
+                        {/* <div className="row justify-content-center">
                             <div className="col-lg-4 col-md-6">
                                 <div className="card-ecosystem">
                                     <a href='https://arabgatewallet.com' target="_blank" className="card-inner">
@@ -27,8 +44,8 @@ const Ecosystem = ({ t, lang }) => {
                                             <img src={cardImage1} alt="eco-img" />
                                         </div>
                                         <div className="info">
-                                            <h1>{t('ecosystem.cards_ecosystek_list.card_arabgate.title')}</h1>
-                                            <p>{t('ecosystem.cards_ecosystek_list.card_arabgate.desc')}</p>
+                                            <h1>{t('ecosystem.cards_ecosystem_list.card_arabgate.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystem_list.card_arabgate.desc')}</p>
                                         </div>
                                     </a>
                                 </div>
@@ -40,8 +57,8 @@ const Ecosystem = ({ t, lang }) => {
                                             <img src={cardImage2} alt="eco-img" />
                                         </div>
                                         <div className="info">
-                                            <h1>{t('ecosystem.cards_ecosystek_list.card_blockchain.title')}</h1>
-                                            <p>{t('ecosystem.cards_ecosystek_list.card_blockchain.desc')}</p>
+                                            <h1>{t('ecosystem.cards_ecosystem_list.card_blockchain.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystem_list.card_blockchain.desc')}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -53,8 +70,8 @@ const Ecosystem = ({ t, lang }) => {
                                             <img src={cardImage3} alt="eco-img" />
                                         </div>
                                         <div className="info">
-                                            <h1>{t('ecosystem.cards_ecosystek_list.card_crypto.title')}</h1>
-                                            <p>{t('ecosystem.cards_ecosystek_list.card_crypto.desc')}</p>
+                                            <h1>{t('ecosystem.cards_ecosystem_list.card_crypto.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystem_list.card_crypto.desc')}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -66,8 +83,8 @@ const Ecosystem = ({ t, lang }) => {
                                             <img src={cardImage5} alt="eco-img" />
                                         </div>
                                         <div className="info">
-                                            <h1>{t('ecosystem.cards_ecosystek_list.card_academy.title')}</h1>
-                                            <p>{t('ecosystem.cards_ecosystek_list.card_academy.desc')}</p>
+                                            <h1>{t('ecosystem.cards_ecosystem_list.card_academy.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystem_list.card_academy.desc')}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -79,8 +96,8 @@ const Ecosystem = ({ t, lang }) => {
                                             <img src={cardImage7} alt="eco-img" />
                                         </div>
                                         <div className="info">
-                                            <h1>{t('ecosystem.cards_ecosystek_list.card_devtrezor.title')}</h1>
-                                            <p>{t('ecosystem.cards_ecosystek_list.card_devtrezor.desc')}</p>
+                                            <h1>{t('ecosystem.cards_ecosystem_list.card_devtrezor.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystem_list.card_devtrezor.desc')}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -92,8 +109,8 @@ const Ecosystem = ({ t, lang }) => {
                                             <img src={cardImage4} alt="eco-img" />
                                         </div>
                                         <div className="info">
-                                            <h1>{t('ecosystem.cards_ecosystek_list.card_nft.title')}</h1>
-                                            <p>{t('ecosystem.cards_ecosystek_list.card_nft.desc')}</p>
+                                            <h1>{t('ecosystem.cards_ecosystem_list.card_nft.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystem_list.card_nft.desc')}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -105,8 +122,8 @@ const Ecosystem = ({ t, lang }) => {
                                             <img src={cardImage6} alt="eco-img" />
                                         </div>
                                         <div className="info">
-                                            <h1>{t('ecosystem.cards_ecosystek_list.card_grant.title')}</h1>
-                                            <p>{t('ecosystem.cards_ecosystek_list.card_grant.desc')}</p>
+                                            <h1>{t('ecosystem.cards_ecosystem_list.card_grant.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystem_list.card_grant.desc')}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -119,13 +136,13 @@ const Ecosystem = ({ t, lang }) => {
                                             <img src={cardImage8} alt="eco-img" />
                                         </div>
                                         <div className="info">
-                                            <h1>{t('ecosystem.cards_ecosystek_list.card_prison_knowledge.title')}</h1>
-                                            <p>{t('ecosystem.cards_ecosystek_list.card_prison_knowledge.desc')}</p>
+                                            <h1>{t('ecosystem.cards_ecosystem_list.card_prison_knowledge.title')}</h1>
+                                            <p>{t('ecosystem.cards_ecosystem_list.card_prison_knowledge.desc')}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

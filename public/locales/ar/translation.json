@@ -18,9 +18,9 @@
     "entire_agreement": "اتفاق كامل"
   },
   "language": {
-    "ar": "عربي",
     "en": "English",
-    "tr": "Turkish"
+    "tr": "Turkish",
+    "ar": "عربي"
   },
   "index_hero": {
     "title": "بوابتك للمستقبل",
@@ -39,7 +39,7 @@
   "ecosystem": {
     "title": "نحن نبني نظامًا بيئيًا ثوريًا",
     "desc": "لدينا كل ما تحتاجه لبدء التداول",
-    "cards_ecosystek_list": {
+    "cards_ecosystem_list": {
       "card_arabgate": {
         "title": "بوابة العرب",
         "desc": "الكل في بوابة واحدة ، بوابة العرب هي محفظة غير تحفظية ستربط مليارات المستخدمين حول العالم بأمان. تقدم بوابة العرب عدة multi-chain (NFT و cryptocurrency) ، DEX ، متصفح DApp ، حلول الدفع ، ومساعد افتراضي للذكاء الاصطناعي."
