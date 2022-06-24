@@ -36,7 +36,7 @@ const HeaderArabNetwork = ({
     }
   };
 
-  useEffect(() => {}, [darkMode]);
+  useEffect(() => { }, [darkMode]);
   return (
     <>
       <div className={`header-arabnetwork ${lang ? "area-rtl" : ""}`}>
@@ -73,9 +73,9 @@ const HeaderArabNetwork = ({
                       </li>
                     </ul>
                   </li> */}
-                  {/* <li>
-                    <Link to="/community">{t("menus.community")}</Link>
-                  </li> */}
+                  <li>
+                    <a href="#ecosystem-section">{t("menus.ecosystem")}</a>
+                  </li>
                   <li>
                     <a
                       href="https://whitepaper.arabnetwork.org"

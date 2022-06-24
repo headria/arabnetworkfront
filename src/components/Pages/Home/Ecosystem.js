@@ -12,7 +12,7 @@ import cardImage8 from '../../../assets/images/ecosystem-8.png'
 const Ecosystem = ({ t, lang }) => {
     return (
         <>
-            <div className={`ecosystem-section pt-100 pb-100 ${lang ? "area-rtl" : ""}`}>
+            <div className={`ecosystem-section pt-100 pb-100 ${lang ? "area-rtl" : ""}`} id="ecosystem-section">
                 <div className="container">
                     <div className="section-title text-center">
                         <h3 className='title'>{t('ecosystem.title')}</h3>
