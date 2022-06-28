@@ -9,6 +9,7 @@ import PageHero from "../../Layouts/PageHero";
 import PageTextContent from "./PageTextContent";
 import useDarkMode from "../../Hooks/useDarkMode";
 import useLanguage from "../../Hooks/useLanguage";
+import HeadTags from "../../Layouts/HeadTags";
 
 const Trademarks = () => {
   const [drawer, drawerAction] = useState(false);
@@ -19,6 +20,7 @@ const Trademarks = () => {
 
   return (
     <>
+      <HeadTags title={t("trademarks.title")} desc={t("trademarks.desc")} />
       <Drawer drawer={drawer} setDrawer={drawerAction} />
       <Header
         drawer={drawer}
