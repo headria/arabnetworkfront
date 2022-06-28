@@ -9,6 +9,7 @@ import PageHero from "../../Layouts/PageHero";
 import PageTextContent from "./PageTextContent";
 import useDarkMode from "../../Hooks/useDarkMode";
 import useLanguage from "../../Hooks/useLanguage";
+import HeadTags from "../../Layouts/HeadTags";
 
 const EntireAgreement = () => {
   const [drawer, drawerAction] = useState(false);
@@ -18,6 +19,10 @@ const EntireAgreement = () => {
 
   return (
     <>
+      <HeadTags
+        title={t("entire_agreement.title")}
+        description={t("entire_agreement.desc")}
+      />
       <Drawer drawer={drawer} setDrawer={drawerAction} />
       <Header
         drawer={drawer}
