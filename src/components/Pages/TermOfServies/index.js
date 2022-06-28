@@ -9,6 +9,7 @@ import PageHero from "../../Layouts/PageHero";
 import PageTextContent from "./PageTextContent";
 import useDarkMode from "../../Hooks/useDarkMode";
 import useLanguage from "../../Hooks/useLanguage";
+import HeadTags from "../../Layouts/HeadTags";
 
 const TermOfServies = () => {
   const [drawer, drawerAction] = useState(false);
@@ -18,6 +19,10 @@ const TermOfServies = () => {
 
   return (
     <>
+      <HeadTags
+        title={t("term_of_services.title")}
+        desc={t("term_of_services.desc")}
+      />
       <Drawer drawer={drawer} setDrawer={drawerAction} />
       <Header
         drawer={drawer}
