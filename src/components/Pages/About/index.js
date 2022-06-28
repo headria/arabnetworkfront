@@ -12,6 +12,8 @@ import OurValues from "./OurValues";
 import Teams from "./Teams";
 import useDarkMode from "../../Hooks/useDarkMode";
 import useLanguage from "../../Hooks/useLanguage";
+import { Helmet } from "react-helmet";
+import HeadTags from "../../Layouts/HeadTags";
 
 const About = () => {
   const [drawer, drawerAction] = useState(false);
@@ -21,6 +23,10 @@ const About = () => {
 
   return (
     <>
+      <HeadTags
+        title={t("about_arabnetwork.title_3")}
+        description={t("about_arabnetwork.desc")}
+      />
       <Drawer drawer={drawer} setDrawer={drawerAction} />
       <Header
         drawer={drawer}
