@@ -9,6 +9,7 @@ import PageHero from "../../Layouts/PageHero";
 import PageTextContent from "./PageTextContent";
 import useDarkMode from "../../Hooks/useDarkMode";
 import useLanguage from "../../Hooks/useLanguage";
+import HeadTags from "../../Layouts/HeadTags";
 
 const ProhibitedUses = () => {
   const [drawer, drawerAction] = useState(false);
@@ -18,6 +19,10 @@ const ProhibitedUses = () => {
 
   return (
     <>
+      <HeadTags
+        title={t("prohibited_uses.title")}
+        description={t("prohibited_uses.desc")}
+      />
       <Drawer drawer={drawer} setDrawer={drawerAction} />
       <Header
         drawer={drawer}
