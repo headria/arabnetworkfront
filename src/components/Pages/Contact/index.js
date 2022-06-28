@@ -9,6 +9,8 @@ import { t } from "i18next";
 import { ThemeContext, Themes } from "../../Layouts/Themes/themeContext";
 import useDarkMode from "../../Hooks/useDarkMode";
 import useLanguage from "../../Hooks/useLanguage";
+import { Helmet } from "react-helmet";
+import HeadTags from "../../Layouts/HeadTags";
 
 const Contact = () => {
   const [drawer, drawerAction] = useState(false);
@@ -18,6 +20,7 @@ const Contact = () => {
 
   return (
     <>
+      <HeadTags title={t("contact.title")} description={t("contact.desc")} />
       <Drawer drawer={drawer} setDrawer={drawerAction} />
       <Header
         drawer={drawer}
