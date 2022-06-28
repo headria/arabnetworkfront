@@ -9,6 +9,7 @@ import PageHero from "../../Layouts/PageHero";
 import PageTextContent from "./PageTextContent";
 import useDarkMode from "../../Hooks/useDarkMode";
 import useLanguage from "../../Hooks/useLanguage";
+import HeadTags from "../../Layouts/HeadTags";
 
 const IntellectualProperty = () => {
   const [drawer, drawerAction] = useState(false);
@@ -19,6 +20,7 @@ const IntellectualProperty = () => {
 
   return (
     <>
+      <HeadTags title={t("intellectual_property.title")} description="" />
       <Drawer drawer={drawer} setDrawer={drawerAction} />
       <Header
         drawer={drawer}

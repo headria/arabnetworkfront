@@ -9,6 +9,7 @@ import PageHero from "../../Layouts/PageHero";
 import PageTextContent from "./PageTextContent";
 import useDarkMode from "../../Hooks/useDarkMode";
 import useLanguage from "../../Hooks/useLanguage";
+import HeadTags from "../../Layouts/HeadTags";
 
 const Private = () => {
   const [drawer, drawerAction] = useState(false);
@@ -18,6 +19,10 @@ const Private = () => {
 
   return (
     <>
+      <HeadTags
+        title={t("private_plicy.title")}
+        description={t("private_plicy.desc")}
+      />
       <Drawer drawer={drawer} setDrawer={drawerAction} />
       <Header
         drawer={drawer}
