@@ -2,7 +2,7 @@ import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
-import 'swiper/css'
+import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 
@@ -26,7 +26,6 @@ const Partnership = ({ t, lang, darkMode }) => {
             <p>{t("partnership.desc")}</p>
           </div>
           <div className="section-inner">
-
             <Swiper
               spaceBetween={30}
               slidesPerView={1}
@@ -87,17 +86,7 @@ const Partnership = ({ t, lang, darkMode }) => {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div className="card-partnership">
-                  <div className="card-inner">
-                    <div className="img-content">
-                      <img src={pertner_ankr} alt="img-name" />
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
             </Swiper>
-
           </div>
         </div>
       </div>
