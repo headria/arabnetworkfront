@@ -36,7 +36,7 @@ const HeaderArabNetwork = ({
     }
   };
 
-  useEffect(() => { }, [darkMode]);
+  useEffect(() => {}, [darkMode]);
   return (
     <>
       <div className={`header-arabnetwork ${lang ? "area-rtl" : ""}`}>
@@ -95,7 +95,7 @@ const HeaderArabNetwork = ({
               </div>
               <div className="btn-groups">
                 {/* <button type="button" className="btn btn-dark">
-                  {t("menus.buy_arabcoin")}
+                  {t("menus.whitelist")}
                 </button> */}
                 <div className="choose-lang">
                   <ul>

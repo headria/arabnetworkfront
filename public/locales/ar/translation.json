@@ -15,7 +15,8 @@
     "intellectual_property_rights": "حقوق الملكية الفكرية",
     "trademarks": "العلامات التجارية",
     "prohibited_uses": "الاستخدامات المحظورة",
-    "entire_agreement": "اتفاق كامل"
+    "entire_agreement": "اتفاق كامل",
+    "whitelist": "القائمة البيضاء"
   },
   "language": {
     "ar": "عربي",
