@@ -51,7 +51,8 @@ const ArabNetwork = () => {
       <RoadMap t={t} lang={lang} />
       <DownloadApp t={t} lang={lang} />
       <Footer darkMode={darkMode} lang={lang} />
-      {/* 
+
+
       <Modal
         showModal={showModal}
         onClose={() => setShowModal(false)}
@@ -83,16 +84,16 @@ const ArabNetwork = () => {
                 href="https://app.viralsweep.com/sweeps/full/2b2b52-113053?framed=1"
                 target="_blank"
                 rel="noreferrer"
-                className="main-btn"
+                className="btn btn-primary"
               >
-                {t("home.whitelistjoin")}
+                {t("menus.join_us")}
               </a>
             </div>
           </div>
         </div>
       </Modal>
 
-      <BackToTop /> */}
+      {/* <BackToTop /> */}
     </>
   );
 };

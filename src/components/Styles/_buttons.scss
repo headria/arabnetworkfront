@@ -1,5 +1,6 @@
 .btn {
     transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
     &:hover,
     &:focus {
         box-shadow: none;
@@ -14,6 +15,11 @@
     color: white;
     padding: 0.6rem 1.1rem;
     text-transform: capitalize;
+    border-color: transparent;
+    &:hover,
+    &:focus {
+        border-color: transparent;
+    }
 }
 
 .btn-primary-dark {
