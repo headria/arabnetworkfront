@@ -6,13 +6,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 
-import pertner_arabnetwork_light from "../../../assets/images/partnership/partnership-arabnetwork-dark.png";
 import pertner_getblock_light from "../../../assets/images/partnership/partnership-getblock.png";
 import polyogn_light from "../../../assets/images/partnership/partnership-polygon-light.png";
 import polyogn_dark from "../../../assets/images/partnership/partnership-polygon-dark.png";
-import pertner_pinksale_light from "../../../assets/images/partnership/partnership-pinksale-dark.png";
-import pertner_pinksale_dark from "../../../assets/images/partnership/partnership-pinksale-light.png";
 import pertner_ankr from "../../../assets/images/partnership/partnership-ankr.png";
+import pertner_boba from "../../../assets/images/partnership/partnership-boba-dark.png";
+
+// import pertner_arabnetwork_light from "../../../assets/images/partnership/partnership-arabnetwork-dark.png";
+// import pertner_pinksale_light from "../../../assets/images/partnership/partnership-pinksale-dark.png";
+// import pertner_pinksale_dark from "../../../assets/images/partnership/partnership-pinksale-light.png";
 
 const Partnership = ({ t, lang, darkMode }) => {
   return (
@@ -82,6 +84,15 @@ const Partnership = ({ t, lang, darkMode }) => {
                   <div className="card-inner">
                     <div className="img-content">
                       <img src={pertner_ankr} alt="img-name" />
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="card-partnership">
+                  <div className="card-inner">
+                    <div className="img-content">
+                      <img src={pertner_boba} alt="img-name" />
                     </div>
                   </div>
                 </div>
