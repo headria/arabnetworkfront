@@ -42,7 +42,7 @@ const About = () => {
       <WhatisArabnetwork t={t} lang={lang} />
       <OurVision t={t} lang={lang} />
       <OurValues t={t} lang={lang} />
-      <Teams t={t} lang={lang} darkMode={darkMode} />
+      {/* <Teams t={t} lang={lang} darkMode={darkMode} /> */}
 
       <Footer darkMode={darkMode} lang={lang} />
     </>
